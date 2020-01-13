@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292BAF9840620F76910809B9 /* Pods_SweetHealth_SweetHealthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D8A0367CBF2582AC407BED /* Pods_SweetHealth_SweetHealthUITests.framework */; };
+		591714336FAA2EA1A3C75F3B /* Pods_SweetHealthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEBA6D2714AC84D8EEA67BF /* Pods_SweetHealthTests.framework */; };
+		65EE2C3B62E004CBE48358FC /* Pods_SweetHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CA9F49F0B5AD74CF1CC6A0 /* Pods_SweetHealth.framework */; };
 		9BE79A4023CD20D100669BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A3F23CD20D100669BCC /* AppDelegate.swift */; };
 		9BE79A4223CD20D100669BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A4123CD20D100669BCC /* SceneDelegate.swift */; };
 		9BE79A4423CD20D100669BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A4323CD20D100669BCC /* ViewController.swift */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CEBA6D2714AC84D8EEA67BF /* Pods_SweetHealthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetHealthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D8A0367CBF2582AC407BED /* Pods_SweetHealth_SweetHealthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetHealth_SweetHealthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CA9F49F0B5AD74CF1CC6A0 /* Pods_SweetHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		646E5955A1391903F4620739 /* Pods-SweetHealthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealthTests.release.xcconfig"; path = "Target Support Files/Pods-SweetHealthTests/Pods-SweetHealthTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D448FF94A8676287D795588 /* Pods-SweetHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealth/Pods-SweetHealth.debug.xcconfig"; sourceTree = "<group>"; };
 		9BE79A3C23CD20D100669BCC /* SweetHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE79A3F23CD20D100669BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BE79A4123CD20D100669BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		9BE79A5D23CD20D600669BCC /* SweetHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE79A6123CD20D600669BCC /* SweetHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetHealthUITests.swift; sourceTree = "<group>"; };
 		9BE79A6323CD20D600669BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAA6C45D5F4EF9BD82D2048 /* Pods-SweetHealth-SweetHealthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth-SweetHealthUITests.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealth-SweetHealthUITests/Pods-SweetHealth-SweetHealthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3DC8F5A140B7E1A9B4A8FAE /* Pods-SweetHealth-SweetHealthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth-SweetHealthUITests.release.xcconfig"; path = "Target Support Files/Pods-SweetHealth-SweetHealthUITests/Pods-SweetHealth-SweetHealthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA29E0BB138988E4F630FE10 /* Pods-SweetHealthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealthTests.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealthTests/Pods-SweetHealthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDA1042EDACBE85BBD7EDD78 /* Pods-SweetHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth.release.xcconfig"; path = "Target Support Files/Pods-SweetHealth/Pods-SweetHealth.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EE2C3B62E004CBE48358FC /* Pods_SweetHealth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591714336FAA2EA1A3C75F3B /* Pods_SweetHealthTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292BAF9840620F76910809B9 /* Pods_SweetHealth_SweetHealthUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A4219EDDF52190C90220E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63CA9F49F0B5AD74CF1CC6A0 /* Pods_SweetHealth.framework */,
+				53D8A0367CBF2582AC407BED /* Pods_SweetHealth_SweetHealthUITests.framework */,
+				1CEBA6D2714AC84D8EEA67BF /* Pods_SweetHealthTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9BE79A3323CD20D100669BCC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				9BE79A5523CD20D600669BCC /* SweetHealthTests */,
 				9BE79A6023CD20D600669BCC /* SweetHealthUITests */,
 				9BE79A3D23CD20D100669BCC /* Products */,
+				EE0316E6D1A6F4897C14C327 /* Pods */,
+				0A4219EDDF52190C90220E1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = SweetHealthUITests;
 			sourceTree = "<group>";
 		};
+		EE0316E6D1A6F4897C14C327 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D448FF94A8676287D795588 /* Pods-SweetHealth.debug.xcconfig */,
+				FDA1042EDACBE85BBD7EDD78 /* Pods-SweetHealth.release.xcconfig */,
+				BFAA6C45D5F4EF9BD82D2048 /* Pods-SweetHealth-SweetHealthUITests.debug.xcconfig */,
+				D3DC8F5A140B7E1A9B4A8FAE /* Pods-SweetHealth-SweetHealthUITests.release.xcconfig */,
+				EA29E0BB138988E4F630FE10 /* Pods-SweetHealthTests.debug.xcconfig */,
+				646E5955A1391903F4620739 /* Pods-SweetHealthTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BE79A6623CD20D600669BCC /* Build configuration list for PBXNativeTarget "SweetHealth" */;
 			buildPhases = (
+				80DEF8485540B1BBF50ACB85 /* [CP] Check Pods Manifest.lock */,
 				9BE79A3823CD20D100669BCC /* Sources */,
 				9BE79A3923CD20D100669BCC /* Frameworks */,
 				9BE79A3A23CD20D100669BCC /* Resources */,
+				131C894F723E7E978E9324BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BE79A6923CD20D600669BCC /* Build configuration list for PBXNativeTarget "SweetHealthTests" */;
 			buildPhases = (
+				1365862FACDFD2CE10ABEDE4 /* [CP] Check Pods Manifest.lock */,
 				9BE79A4E23CD20D600669BCC /* Sources */,
 				9BE79A4F23CD20D600669BCC /* Frameworks */,
 				9BE79A5023CD20D600669BCC /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BE79A6C23CD20D600669BCC /* Build configuration list for PBXNativeTarget "SweetHealthUITests" */;
 			buildPhases = (
+				AFBAAE6B32AC7FF5D53480F6 /* [CP] Check Pods Manifest.lock */,
 				9BE79A5923CD20D600669BCC /* Sources */,
 				9BE79A5A23CD20D600669BCC /* Frameworks */,
 				9BE79A5B23CD20D600669BCC /* Resources */,
+				ADD26FD05FA9FC63935A22DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		131C894F723E7E978E9324BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetHealth/Pods-SweetHealth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetHealth/Pods-SweetHealth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SweetHealth/Pods-SweetHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1365862FACDFD2CE10ABEDE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SweetHealthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80DEF8485540B1BBF50ACB85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SweetHealth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADD26FD05FA9FC63935A22DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetHealth-SweetHealthUITests/Pods-SweetHealth-SweetHealthUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetHealth-SweetHealthUITests/Pods-SweetHealth-SweetHealthUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SweetHealth-SweetHealthUITests/Pods-SweetHealth-SweetHealthUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFBAAE6B32AC7FF5D53480F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SweetHealth-SweetHealthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BE79A3823CD20D100669BCC /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		9BE79A6723CD20D600669BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D448FF94A8676287D795588 /* Pods-SweetHealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +600,7 @@
 		};
 		9BE79A6823CD20D600669BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA1042EDACBE85BBD7EDD78 /* Pods-SweetHealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +619,7 @@
 		};
 		9BE79A6A23CD20D600669BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA29E0BB138988E4F630FE10 /* Pods-SweetHealthTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		9BE79A6B23CD20D600669BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646E5955A1391903F4620739 /* Pods-SweetHealthTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		9BE79A6D23CD20D600669BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAA6C45D5F4EF9BD82D2048 /* Pods-SweetHealth-SweetHealthUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +686,7 @@
 		};
 		9BE79A6E23CD20D600669BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DC8F5A140B7E1A9B4A8FAE /* Pods-SweetHealth-SweetHealthUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
