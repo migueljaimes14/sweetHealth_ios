@@ -9,5 +9,6 @@
 import Foundation
 
 open class Literals{
-    
+    static var titleEmail = "Escribe tu nombre de usuario"
+    static var titlePassword = "Escribe tu contraseña"
 }

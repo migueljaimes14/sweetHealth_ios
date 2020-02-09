@@ -10,7 +10,11 @@
 		292BAF9840620F76910809B9 /* Pods_SweetHealth_SweetHealthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D8A0367CBF2582AC407BED /* Pods_SweetHealth_SweetHealthUITests.framework */; };
 		591714336FAA2EA1A3C75F3B /* Pods_SweetHealthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEBA6D2714AC84D8EEA67BF /* Pods_SweetHealthTests.framework */; };
 		65EE2C3B62E004CBE48358FC /* Pods_SweetHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CA9F49F0B5AD74CF1CC6A0 /* Pods_SweetHealth.framework */; };
+		9BD2399023F0591200D82FFF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2398F23F0591200D82FFF /* BaseViewController.swift */; };
+		9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2399123F0607A00D82FFF /* RoundButton.swift */; };
 		9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBCAD623CE06E400B96973 /* Literals.swift */; };
+		9BDBCADA23CE07F600B96973 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDBCAD923CE07F600B96973 /* Login.storyboard */; };
+		9BDBCADC23CE080700B96973 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBCADB23CE080700B96973 /* LoginViewController.swift */; };
 		9BE79A4023CD20D100669BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A3F23CD20D100669BCC /* AppDelegate.swift */; };
 		9BE79A4223CD20D100669BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A4123CD20D100669BCC /* SceneDelegate.swift */; };
 		9BE79A4423CD20D100669BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A4323CD20D100669BCC /* ViewController.swift */; };
@@ -19,6 +23,20 @@
 		9BE79A4C23CD20D600669BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE79A4A23CD20D600669BCC /* LaunchScreen.storyboard */; };
 		9BE79A5723CD20D600669BCC /* SweetHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A5623CD20D600669BCC /* SweetHealthTests.swift */; };
 		9BE79A6223CD20D600669BCC /* SweetHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A6123CD20D600669BCC /* SweetHealthUITests.swift */; };
+		9BFBD17623D3BABB0097A4DC /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17523D3BABA0097A4DC /* Register.storyboard */; };
+		9BFBD17A23D3BBE10097A4DC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17923D3BBE10097A4DC /* Home.storyboard */; };
+		9BFBD17C23D3BC050097A4DC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD17B23D3BC050097A4DC /* RegisterViewController.swift */; };
+		9BFBD17F23D3BF6C0097A4DC /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17E23D3BF6C0097A4DC /* Detail.storyboard */; };
+		9BFBD18123D3BF8A0097A4DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD18023D3BF8A0097A4DC /* DetailViewController.swift */; };
+		9BFBD18323D4F72A0097A4DC /* ScheduleControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD18223D4F72A0097A4DC /* ScheduleControl.storyboard */; };
+		9BFBD18523D4F7490097A4DC /* ScheduleControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD18423D4F7490097A4DC /* ScheduleControlViewController.swift */; };
+		9BFBD18723D4F7AA0097A4DC /* Stadistic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD18623D4F7AA0097A4DC /* Stadistic.storyboard */; };
+		9BFBD18923D4F7C40097A4DC /* StadisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD18823D4F7C40097A4DC /* StadisticViewController.swift */; };
+		9BFBD18B23D4F7EB0097A4DC /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD18A23D4F7EB0097A4DC /* Profile.storyboard */; };
+		9BFBD18D23D4F8010097A4DC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD18C23D4F8010097A4DC /* ProfileViewController.swift */; };
+		9BFBD18F23D4F81C0097A4DC /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD18E23D4F81C0097A4DC /* Map.storyboard */; };
+		9BFBD19123D4F82F0097A4DC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD19023D4F82F0097A4DC /* MapViewController.swift */; };
+		9BFBD19323D4F84A0097A4DC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD19223D4F84A0097A4DC /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +62,11 @@
 		63CA9F49F0B5AD74CF1CC6A0 /* Pods_SweetHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		646E5955A1391903F4620739 /* Pods-SweetHealthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealthTests.release.xcconfig"; path = "Target Support Files/Pods-SweetHealthTests/Pods-SweetHealthTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D448FF94A8676287D795588 /* Pods-SweetHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealth/Pods-SweetHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		9BD2398F23F0591200D82FFF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9BD2399123F0607A00D82FFF /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		9BDBCAD623CE06E400B96973 /* Literals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literals.swift; sourceTree = "<group>"; };
+		9BDBCAD923CE07F600B96973 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		9BDBCADB23CE080700B96973 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9BE79A3C23CD20D100669BCC /* SweetHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE79A3F23CD20D100669BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BE79A4123CD20D100669BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +81,20 @@
 		9BE79A5D23CD20D600669BCC /* SweetHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE79A6123CD20D600669BCC /* SweetHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetHealthUITests.swift; sourceTree = "<group>"; };
 		9BE79A6323CD20D600669BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFBD17523D3BABA0097A4DC /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		9BFBD17923D3BBE10097A4DC /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		9BFBD17B23D3BC050097A4DC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9BFBD17E23D3BF6C0097A4DC /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		9BFBD18023D3BF8A0097A4DC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9BFBD18223D4F72A0097A4DC /* ScheduleControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScheduleControl.storyboard; sourceTree = "<group>"; };
+		9BFBD18423D4F7490097A4DC /* ScheduleControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleControlViewController.swift; sourceTree = "<group>"; };
+		9BFBD18623D4F7AA0097A4DC /* Stadistic.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stadistic.storyboard; sourceTree = "<group>"; };
+		9BFBD18823D4F7C40097A4DC /* StadisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadisticViewController.swift; sourceTree = "<group>"; };
+		9BFBD18A23D4F7EB0097A4DC /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		9BFBD18C23D4F8010097A4DC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9BFBD18E23D4F81C0097A4DC /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		9BFBD19023D4F82F0097A4DC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9BFBD19223D4F84A0097A4DC /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		BFAA6C45D5F4EF9BD82D2048 /* Pods-SweetHealth-SweetHealthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth-SweetHealthUITests.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealth-SweetHealthUITests/Pods-SweetHealth-SweetHealthUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3DC8F5A140B7E1A9B4A8FAE /* Pods-SweetHealth-SweetHealthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth-SweetHealthUITests.release.xcconfig"; path = "Target Support Files/Pods-SweetHealth-SweetHealthUITests/Pods-SweetHealth-SweetHealthUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EA29E0BB138988E4F630FE10 /* Pods-SweetHealthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealthTests.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealthTests/Pods-SweetHealthTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,7 +151,9 @@
 		9BDBCAD223CE062200B96973 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9BD2399123F0607A00D82FFF /* RoundButton.swift */,
 				9BDBCAD623CE06E400B96973 /* Literals.swift */,
+				9BD2398F23F0591200D82FFF /* BaseViewController.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -123,6 +161,7 @@
 		9BDBCAD323CE064A00B96973 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD17523D3BABA0097A4DC /* Register.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,10 +198,11 @@
 		9BE79A3E23CD20D100669BCC /* SweetHealth */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD17423D3A9D70097A4DC /* API */,
 				9BDBCAD223CE062200B96973 /* Utils */,
 				9BE79A7623CD2DA600669BCC /* Map */,
 				9BE79A7523CD2D9800669BCC /* Profile */,
-				9BE79A7323CD2D7000669BCC /* Statistics */,
+				9BE79A7323CD2D7000669BCC /* Stadistics */,
 				9BE79A7223CD2D3700669BCC /*  ScheduleControl */,
 				9BE79A7123CD2D1000669BCC /* Detail */,
 				9BE79A7023CD2CE900669BCC /* Home */,
@@ -224,13 +264,13 @@
 			path = " ScheduleControl";
 			sourceTree = "<group>";
 		};
-		9BE79A7323CD2D7000669BCC /* Statistics */ = {
+		9BE79A7323CD2D7000669BCC /* Stadistics */ = {
 			isa = PBXGroup;
 			children = (
 				9BE79A8223CD2E2B00669BCC /* Controller */,
 				9BE79A7B23CD2E0300669BCC /* View */,
 			);
-			path = Statistics;
+			path = Stadistics;
 			sourceTree = "<group>";
 		};
 		9BE79A7423CD2D8100669BCC /* Login */ = {
@@ -263,6 +303,7 @@
 		9BE79A7723CD2DC600669BCC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BDBCAD923CE07F600B96973 /* Login.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,6 +311,7 @@
 		9BE79A7823CD2DF500669BCC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD17923D3BBE10097A4DC /* Home.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -277,6 +319,7 @@
 		9BE79A7923CD2DFA00669BCC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD17E23D3BF6C0097A4DC /* Detail.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -284,6 +327,7 @@
 		9BE79A7A23CD2DFF00669BCC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD18223D4F72A0097A4DC /* ScheduleControl.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -291,6 +335,7 @@
 		9BE79A7B23CD2E0300669BCC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD18623D4F7AA0097A4DC /* Stadistic.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -298,6 +343,7 @@
 		9BE79A7C23CD2E0700669BCC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD18A23D4F7EB0097A4DC /* Profile.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -305,6 +351,7 @@
 		9BE79A7D23CD2E0B00669BCC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD18E23D4F81C0097A4DC /* Map.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +359,7 @@
 		9BE79A7E23CD2E1200669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9BDBCADB23CE080700B96973 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -319,6 +367,7 @@
 		9BE79A7F23CD2E1F00669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD17B23D3BC050097A4DC /* RegisterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -326,6 +375,7 @@
 		9BE79A8023CD2E2200669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD18023D3BF8A0097A4DC /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -333,6 +383,7 @@
 		9BE79A8123CD2E2700669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD18423D4F7490097A4DC /* ScheduleControlViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -340,6 +391,7 @@
 		9BE79A8223CD2E2B00669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD18823D4F7C40097A4DC /* StadisticViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -347,6 +399,7 @@
 		9BE79A8323CD2E2F00669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD18C23D4F8010097A4DC /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -354,8 +407,17 @@
 		9BE79A8423CD2E3300669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9BFBD19023D4F82F0097A4DC /* MapViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BFBD17423D3A9D70097A4DC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBD19223D4F84A0097A4DC /* APIManager.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		EE0316E6D1A6F4897C14C327 /* Pods */ = {
@@ -480,9 +542,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDBCADA23CE07F600B96973 /* Login.storyboard in Resources */,
 				9BE79A4C23CD20D600669BCC /* LaunchScreen.storyboard in Resources */,
+				9BFBD18B23D4F7EB0097A4DC /* Profile.storyboard in Resources */,
+				9BFBD18723D4F7AA0097A4DC /* Stadistic.storyboard in Resources */,
 				9BE79A4923CD20D600669BCC /* Assets.xcassets in Resources */,
+				9BFBD17A23D3BBE10097A4DC /* Home.storyboard in Resources */,
+				9BFBD17F23D3BF6C0097A4DC /* Detail.storyboard in Resources */,
+				9BFBD18F23D4F81C0097A4DC /* Map.storyboard in Resources */,
 				9BE79A4723CD20D100669BCC /* Main.storyboard in Resources */,
+				9BFBD17623D3BABB0097A4DC /* Register.storyboard in Resources */,
+				9BFBD18323D4F72A0097A4DC /* ScheduleControl.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,10 +679,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD2399023F0591200D82FFF /* BaseViewController.swift in Sources */,
 				9BE79A4423CD20D100669BCC /* ViewController.swift in Sources */,
+				9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */,
 				9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */,
+				9BFBD18523D4F7490097A4DC /* ScheduleControlViewController.swift in Sources */,
+				9BFBD18923D4F7C40097A4DC /* StadisticViewController.swift in Sources */,
+				9BFBD17C23D3BC050097A4DC /* RegisterViewController.swift in Sources */,
 				9BE79A4023CD20D100669BCC /* AppDelegate.swift in Sources */,
+				9BFBD18D23D4F8010097A4DC /* ProfileViewController.swift in Sources */,
+				9BFBD19123D4F82F0097A4DC /* MapViewController.swift in Sources */,
+				9BDBCADC23CE080700B96973 /* LoginViewController.swift in Sources */,
+				9BFBD19323D4F84A0097A4DC /* APIManager.swift in Sources */,
 				9BE79A4223CD20D100669BCC /* SceneDelegate.swift in Sources */,
+				9BFBD18123D3BF8A0097A4DC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -789,6 +869,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 254DWXJ94U;
 				INFOPLIST_FILE = SweetHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -808,6 +889,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 254DWXJ94U;
 				INFOPLIST_FILE = SweetHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
