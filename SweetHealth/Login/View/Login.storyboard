@@ -54,6 +54,19 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="loginClicked:" destination="jVD-fI-xmH" eventType="touchUpInside" id="eiD-sF-eSp"/>
+<<<<<<< Updated upstream
+=======
+                                    <segue destination="tpE-DN-ruF" kind="show" id="Dpr-9A-kgt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaL-x3-ki8">
+                                <rect key="frame" x="295" y="627" width="70" height="30"/>
+                                <state key="normal" title="Registrate">
+                                    <color key="titleColor" red="0.53328466415405273" green="0.53336447477340698" blue="0.53326719999313354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xCD-JX-svg" kind="show" id="YWz-Ri-xnD"/>
+>>>>>>> Stashed changes
                                 </connections>
                             </button>
                         </subviews>
@@ -61,7 +74,13 @@
                         <constraints>
                             <constraint firstItem="tvK-Zt-iVo" firstAttribute="height" secondItem="gRv-n1-c5U" secondAttribute="height" multiplier="0.221889" id="2JZ-rK-gfQ"/>
                             <constraint firstItem="SJC-3V-pJ5" firstAttribute="centerX" secondItem="gRv-n1-c5U" secondAttribute="centerX" id="6Oe-ua-iOd"/>
+<<<<<<< Updated upstream
                             <constraint firstItem="qqC-xT-TgF" firstAttribute="centerX" secondItem="gRv-n1-c5U" secondAttribute="centerX" id="8zL-Cm-RXc"/>
+=======
+                            <constraint firstItem="RQG-ae-6TA" firstAttribute="bottom" secondItem="LaL-x3-ki8" secondAttribute="bottom" constant="10" id="7aw-Mt-7YL"/>
+                            <constraint firstItem="qqC-xT-TgF" firstAttribute="centerX" secondItem="gRv-n1-c5U" secondAttribute="centerX" id="8zL-Cm-RXc"/>
+                            <constraint firstItem="RQG-ae-6TA" firstAttribute="trailing" secondItem="LaL-x3-ki8" secondAttribute="trailing" constant="10" id="BfR-sL-Xa5"/>
+>>>>>>> Stashed changes
                             <constraint firstItem="qqC-xT-TgF" firstAttribute="leading" secondItem="RQG-ae-6TA" secondAttribute="leading" constant="45" id="E1t-qH-hc2"/>
                             <constraint firstItem="RQG-ae-6TA" firstAttribute="trailing" secondItem="cMV-5L-9ty" secondAttribute="trailing" constant="45" id="Gup-l8-D8f"/>
                             <constraint firstItem="tMN-8t-tYC" firstAttribute="centerX" secondItem="gRv-n1-c5U" secondAttribute="centerX" id="IOc-T6-xFa"/>
@@ -94,5 +113,28 @@
             </objects>
             <point key="canvasLocation" x="138.40000000000001" y="129.98500749625188"/>
         </scene>
+<<<<<<< Updated upstream
+=======
+        <!--Home-->
+        <scene sceneID="g6q-bz-DRg">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="tpE-DN-ruF" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ZKO-nl-c1O"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y1K-MK-qci" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="49"/>
+        </scene>
+        <!--Register-->
+        <scene sceneID="xwY-ab-Mox">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Register" id="xCD-JX-svg" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Rii-NA-Bda"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zmn-El-GDi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="802" y="347"/>
+        </scene>
+>>>>>>> Stashed changes
     </scenes>
 </document>

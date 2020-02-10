@@ -1,6 +1,0 @@
-framework module Pods_SweetHealthTests {
-  umbrella header "Pods-SweetHealthTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

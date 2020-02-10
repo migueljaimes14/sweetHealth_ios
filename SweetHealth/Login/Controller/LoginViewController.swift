@@ -24,20 +24,36 @@ class LoginViewController: BaseViewController {
     }
     
     func setupView(){
+<<<<<<< Updated upstream
         logoImage.image = #imageLiteral(resourceName: "imageCardBack")
         logoImage.contentMode = .scaleAspectFill
         emailLabel.text = Literals.titleEmail
         paswordLabel.text = Literals.titlePassword
+=======
+        logoImage?.image = #imageLiteral(resourceName: "imageCardBack")
+        logoImage?.contentMode = .scaleAspectFill
+        emailLabel?.text = Literals.titleEmail
+        paswordLabel?.text = Literals.titlePassword
+>>>>>>> Stashed changes
         self.delegate()
     }
     
     func delegate() {
+<<<<<<< Updated upstream
         self.emailImput.delegate = self
         self.passwordImput.delegate = self
     }
 }
 
 extension LoginViewController: UITextFieldDelegate{
+=======
+        self.emailImput?.delegate = self
+        self.passwordImput?.delegate = self
+    }
+}
+
+extension LoginViewController: UITextFieldDelegate {
+>>>>>>> Stashed changes
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         emailImput.resignFirstResponder()
