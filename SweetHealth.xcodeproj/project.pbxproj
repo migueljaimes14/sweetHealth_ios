@@ -23,19 +23,9 @@
 		9BE79A4C23CD20D600669BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE79A4A23CD20D600669BCC /* LaunchScreen.storyboard */; };
 		9BE79A5723CD20D600669BCC /* SweetHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A5623CD20D600669BCC /* SweetHealthTests.swift */; };
 		9BE79A6223CD20D600669BCC /* SweetHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A6123CD20D600669BCC /* SweetHealthUITests.swift */; };
-<<<<<<< Updated upstream
 		9BFBD17623D3BABB0097A4DC /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17523D3BABA0097A4DC /* Register.storyboard */; };
 		9BFBD17A23D3BBE10097A4DC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17923D3BBE10097A4DC /* Home.storyboard */; };
 		9BFBD17C23D3BC050097A4DC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD17B23D3BC050097A4DC /* RegisterViewController.swift */; };
-=======
-<<<<<<< Updated upstream
-=======
-		9BED035523F1C4070045EE62 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED035423F1C4070045EE62 /* Validator.swift */; };
-		9BED035723F1C8750045EE62 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED035623F1C8750045EE62 /* RegisterViewController.swift */; };
-		9BFBD17623D3BABB0097A4DC /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17523D3BABA0097A4DC /* Register.storyboard */; };
-		9BFBD17A23D3BBE10097A4DC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17923D3BBE10097A4DC /* Home.storyboard */; };
-		9BFBD17C23D3BC050097A4DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD17B23D3BC050097A4DC /* HomeViewController.swift */; };
->>>>>>> Stashed changes
 		9BFBD17F23D3BF6C0097A4DC /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17E23D3BF6C0097A4DC /* Detail.storyboard */; };
 		9BFBD18123D3BF8A0097A4DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD18023D3BF8A0097A4DC /* DetailViewController.swift */; };
 		9BFBD18323D4F72A0097A4DC /* ScheduleControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD18223D4F72A0097A4DC /* ScheduleControl.storyboard */; };
@@ -47,10 +37,6 @@
 		9BFBD18F23D4F81C0097A4DC /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD18E23D4F81C0097A4DC /* Map.storyboard */; };
 		9BFBD19123D4F82F0097A4DC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD19023D4F82F0097A4DC /* MapViewController.swift */; };
 		9BFBD19323D4F84A0097A4DC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD19223D4F84A0097A4DC /* APIManager.swift */; };
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,19 +81,9 @@
 		9BE79A5D23CD20D600669BCC /* SweetHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE79A6123CD20D600669BCC /* SweetHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetHealthUITests.swift; sourceTree = "<group>"; };
 		9BE79A6323CD20D600669BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< Updated upstream
 		9BFBD17523D3BABA0097A4DC /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		9BFBD17923D3BBE10097A4DC /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		9BFBD17B23D3BC050097A4DC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-=======
-<<<<<<< Updated upstream
-=======
-		9BED035423F1C4070045EE62 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
-		9BED035623F1C8750045EE62 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		9BFBD17523D3BABA0097A4DC /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
-		9BFBD17923D3BBE10097A4DC /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		9BFBD17B23D3BC050097A4DC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
->>>>>>> Stashed changes
 		9BFBD17E23D3BF6C0097A4DC /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		9BFBD18023D3BF8A0097A4DC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9BFBD18223D4F72A0097A4DC /* ScheduleControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScheduleControl.storyboard; sourceTree = "<group>"; };
@@ -119,10 +95,6 @@
 		9BFBD18E23D4F81C0097A4DC /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		9BFBD19023D4F82F0097A4DC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9BFBD19223D4F84A0097A4DC /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 		BFAA6C45D5F4EF9BD82D2048 /* Pods-SweetHealth-SweetHealthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth-SweetHealthUITests.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealth-SweetHealthUITests/Pods-SweetHealth-SweetHealthUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3DC8F5A140B7E1A9B4A8FAE /* Pods-SweetHealth-SweetHealthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth-SweetHealthUITests.release.xcconfig"; path = "Target Support Files/Pods-SweetHealth-SweetHealthUITests/Pods-SweetHealth-SweetHealthUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EA29E0BB138988E4F630FE10 /* Pods-SweetHealthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealthTests.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealthTests/Pods-SweetHealthTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -181,15 +153,7 @@
 			children = (
 				9BD2399123F0607A00D82FFF /* RoundButton.swift */,
 				9BDBCAD623CE06E400B96973 /* Literals.swift */,
-<<<<<<< Updated upstream
 				9BD2398F23F0591200D82FFF /* BaseViewController.swift */,
-=======
-<<<<<<< Updated upstream
-=======
-				9BD2398F23F0591200D82FFF /* BaseViewController.swift */,
-				9BED035423F1C4070045EE62 /* Validator.swift */,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -235,15 +199,7 @@
 		9BE79A3E23CD20D100669BCC /* SweetHealth */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< Updated upstream
 				9BFBD17423D3A9D70097A4DC /* API */,
-=======
-<<<<<<< Updated upstream
-=======
-				9BED035323F1C0690045EE62 /* Model */,
-				9BFBD17423D3A9D70097A4DC /* API */,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 				9BDBCAD223CE062200B96973 /* Utils */,
 				9BE79A7623CD2DA600669BCC /* Map */,
 				9BE79A7523CD2D9800669BCC /* Profile */,
@@ -412,14 +368,7 @@
 		9BE79A7F23CD2E1F00669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< Updated upstream
 				9BFBD17B23D3BC050097A4DC /* RegisterViewController.swift */,
-=======
-<<<<<<< Updated upstream
-=======
-				9BFBD17B23D3BC050097A4DC /* HomeViewController.swift */,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -464,18 +413,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
-		9BED035323F1C0690045EE62 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
->>>>>>> Stashed changes
 		9BFBD17423D3A9D70097A4DC /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -484,10 +421,6 @@
 			path = API;
 			sourceTree = "<group>";
 		};
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 		EE0316E6D1A6F4897C14C327 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -751,7 +684,6 @@
 				9BE79A4423CD20D100669BCC /* ViewController.swift in Sources */,
 				9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */,
 				9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */,
-<<<<<<< Updated upstream
 				9BFBD18523D4F7490097A4DC /* ScheduleControlViewController.swift in Sources */,
 				9BFBD18923D4F7C40097A4DC /* StadisticViewController.swift in Sources */,
 				9BFBD17C23D3BC050097A4DC /* RegisterViewController.swift in Sources */,
@@ -760,22 +692,6 @@
 				9BFBD19123D4F82F0097A4DC /* MapViewController.swift in Sources */,
 				9BDBCADC23CE080700B96973 /* LoginViewController.swift in Sources */,
 				9BFBD19323D4F84A0097A4DC /* APIManager.swift in Sources */,
-=======
-<<<<<<< Updated upstream
-				9BE79A4023CD20D100669BCC /* AppDelegate.swift in Sources */,
-=======
-				9BFBD18523D4F7490097A4DC /* ScheduleControlViewController.swift in Sources */,
-				9BFBD18923D4F7C40097A4DC /* StadisticViewController.swift in Sources */,
-				9BFBD17C23D3BC050097A4DC /* HomeViewController.swift in Sources */,
-				9BE79A4023CD20D100669BCC /* AppDelegate.swift in Sources */,
-				9BFBD18D23D4F8010097A4DC /* ProfileViewController.swift in Sources */,
-				9BFBD19123D4F82F0097A4DC /* MapViewController.swift in Sources */,
-				9BED035523F1C4070045EE62 /* Validator.swift in Sources */,
-				9BED035723F1C8750045EE62 /* RegisterViewController.swift in Sources */,
-				9BDBCADC23CE080700B96973 /* LoginViewController.swift in Sources */,
-				9BFBD19323D4F84A0097A4DC /* APIManager.swift in Sources */,
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 				9BE79A4223CD20D100669BCC /* SceneDelegate.swift in Sources */,
 				9BFBD18123D3BF8A0097A4DC /* DetailViewController.swift in Sources */,
 			);
