@@ -54,6 +54,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="loginClicked:" destination="jVD-fI-xmH" eventType="touchUpInside" id="eiD-sF-eSp"/>
+                                    <segue destination="rBe-bX-AUf" kind="show" id="0Pf-Ae-OLL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXx-aW-RPr">
@@ -114,6 +115,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IpS-2O-HLB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="679" y="394"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="UT0-9d-hm9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="rBe-bX-AUf" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="W6I-dG-cX0"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zun-fX-stz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="714" y="61"/>
         </scene>
     </scenes>
 </document>

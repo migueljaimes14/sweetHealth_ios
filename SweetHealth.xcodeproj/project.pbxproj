@@ -13,6 +13,9 @@
 		9B5D7DD623F1EE680017DB7F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DD523F1EE680017DB7F /* RegisterViewController.swift */; };
 		9B5D7DD823F1EE8F0017DB7F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DD723F1EE8F0017DB7F /* HomeViewController.swift */; };
 		9B5D7DDA23F260D10017DB7F /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DD923F260D10017DB7F /* Validator.swift */; };
+		9B5D7DDC23F3101F0017DB7F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DDB23F3101F0017DB7F /* HomeTableViewCell.swift */; };
+		9B5D7DDE23F311A60017DB7F /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DDD23F311A60017DB7F /* UIImageView.swift */; };
+		9B5D7DE023F312530017DB7F /* MyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DDF23F312530017DB7F /* MyColors.swift */; };
 		9BD2399023F0591200D82FFF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2398F23F0591200D82FFF /* BaseViewController.swift */; };
 		9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2399123F0607A00D82FFF /* RoundButton.swift */; };
 		9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBCAD623CE06E400B96973 /* Literals.swift */; };
@@ -67,6 +70,9 @@
 		9B5D7DD523F1EE680017DB7F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		9B5D7DD723F1EE8F0017DB7F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9B5D7DD923F260D10017DB7F /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		9B5D7DDB23F3101F0017DB7F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		9B5D7DDD23F311A60017DB7F /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		9B5D7DDF23F312530017DB7F /* MyColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColors.swift; sourceTree = "<group>"; };
 		9BD2398F23F0591200D82FFF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9BD2399123F0607A00D82FFF /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		9BDBCAD623CE06E400B96973 /* Literals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literals.swift; sourceTree = "<group>"; };
@@ -159,6 +165,8 @@
 				9BD2399123F0607A00D82FFF /* RoundButton.swift */,
 				9BDBCAD623CE06E400B96973 /* Literals.swift */,
 				9BD2398F23F0591200D82FFF /* BaseViewController.swift */,
+				9B5D7DDD23F311A60017DB7F /* UIImageView.swift */,
+				9B5D7DDF23F312530017DB7F /* MyColors.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -374,6 +382,7 @@
 			isa = PBXGroup;
 			children = (
 				9B5D7DD723F1EE8F0017DB7F /* HomeViewController.swift */,
+				9B5D7DDB23F3101F0017DB7F /* HomeTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -692,14 +701,17 @@
 				9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */,
 				9BFBD18523D4F7490097A4DC /* ScheduleControlViewController.swift in Sources */,
 				9B5D7DD823F1EE8F0017DB7F /* HomeViewController.swift in Sources */,
+				9B5D7DE023F312530017DB7F /* MyColors.swift in Sources */,
 				9BFBD18923D4F7C40097A4DC /* StadisticViewController.swift in Sources */,
 				9B5D7DD623F1EE680017DB7F /* RegisterViewController.swift in Sources */,
 				9BE79A4023CD20D100669BCC /* AppDelegate.swift in Sources */,
+				9B5D7DDE23F311A60017DB7F /* UIImageView.swift in Sources */,
 				9BFBD18D23D4F8010097A4DC /* ProfileViewController.swift in Sources */,
 				9BFBD19123D4F82F0097A4DC /* MapViewController.swift in Sources */,
 				9BDBCADC23CE080700B96973 /* LoginViewController.swift in Sources */,
 				9BFBD19323D4F84A0097A4DC /* APIManager.swift in Sources */,
 				9BE79A4223CD20D100669BCC /* SceneDelegate.swift in Sources */,
+				9B5D7DDC23F3101F0017DB7F /* HomeTableViewCell.swift in Sources */,
 				9BFBD18123D3BF8A0097A4DC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,4 +16,5 @@ open class Literals{
     static var registerEmail = "Escribe tu email"
     static var registerPassword = "Escribe tu contraseña"
     static var registerRepeatPassword = "Repite tu contraseña"
+    static var titleTimer = "Tiempo"
 }

@@ -163,7 +163,7 @@
                                         <rect key="frame" x="0.0" y="400" width="335" height="50"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5r-Gi-KJj">
-                                                <rect key="frame" x="20" y="20" width="307" height="20.5"/>
+                                                <rect key="frame" x="20" y="10" width="307" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.53328466415405273" green="0.53336447477340698" blue="0.53326719999313354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -173,7 +173,7 @@
                                         <constraints>
                                             <constraint firstItem="i5r-Gi-KJj" firstAttribute="trailing" secondItem="uK2-MA-y1R" secondAttribute="trailingMargin" id="Iqz-rg-Xmo"/>
                                             <constraint firstItem="i5r-Gi-KJj" firstAttribute="leading" secondItem="uK2-MA-y1R" secondAttribute="leading" constant="20" id="pfJ-Lb-71r"/>
-                                            <constraint firstItem="i5r-Gi-KJj" firstAttribute="top" secondItem="uK2-MA-y1R" secondAttribute="top" constant="20" id="yrc-Df-o0c"/>
+                                            <constraint firstItem="i5r-Gi-KJj" firstAttribute="top" secondItem="uK2-MA-y1R" secondAttribute="top" constant="10" id="yrc-Df-o0c"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XIo-69-GMj">
