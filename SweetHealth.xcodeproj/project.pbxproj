@@ -16,6 +16,8 @@
 		9B5D7DDE23F311A60017DB7F /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DDD23F311A60017DB7F /* UIImageView.swift */; };
 		9B5D7DE023F312530017DB7F /* MyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DDF23F312530017DB7F /* MyColors.swift */; };
 		9B5D7DE223F3142A0017DB7F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DE123F3142A0017DB7F /* HomeTableViewController.swift */; };
+		9B5D7DE723F331220017DB7F /* AppJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D7DE623F331220017DB7F /* AppJSON.json */; };
+		9B5D7DEB23F331B60017DB7F /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DEA23F331B60017DB7F /* App.swift */; };
 		9BD2399023F0591200D82FFF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2398F23F0591200D82FFF /* BaseViewController.swift */; };
 		9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2399123F0607A00D82FFF /* RoundButton.swift */; };
 		9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBCAD623CE06E400B96973 /* Literals.swift */; };
@@ -73,6 +75,8 @@
 		9B5D7DDD23F311A60017DB7F /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		9B5D7DDF23F312530017DB7F /* MyColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColors.swift; sourceTree = "<group>"; };
 		9B5D7DE123F3142A0017DB7F /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		9B5D7DE623F331220017DB7F /* AppJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppJSON.json; sourceTree = "<group>"; };
+		9B5D7DEA23F331B60017DB7F /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		9BD2398F23F0591200D82FFF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9BD2399123F0607A00D82FFF /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		9BDBCAD623CE06E400B96973 /* Literals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literals.swift; sourceTree = "<group>"; };
@@ -152,8 +156,17 @@
 		9B5D7DE323F318870017DB7F /* JsonsHardcoded */ = {
 			isa = PBXGroup;
 			children = (
+				9B5D7DE623F331220017DB7F /* AppJSON.json */,
 			);
 			path = JsonsHardcoded;
+			sourceTree = "<group>";
+		};
+		9B5D7DE923F331690017DB7F /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				9B5D7DEA23F331B60017DB7F /* App.swift */,
+			);
+			path = Modelos;
 			sourceTree = "<group>";
 		};
 		9BDBCAD123CE060800B96973 /* Register */ = {
@@ -219,6 +232,7 @@
 		9BE79A3E23CD20D100669BCC /* SweetHealth */ = {
 			isa = PBXGroup;
 			children = (
+				9B5D7DE923F331690017DB7F /* Modelos */,
 				9B5D7DE323F318870017DB7F /* JsonsHardcoded */,
 				9BFBD17423D3A9D70097A4DC /* API */,
 				9BDBCAD223CE062200B96973 /* Utils */,
@@ -576,6 +590,7 @@
 				9BE79A4723CD20D100669BCC /* Main.storyboard in Resources */,
 				9BFBD17623D3BABB0097A4DC /* Register.storyboard in Resources */,
 				9BFBD18323D4F72A0097A4DC /* ScheduleControl.storyboard in Resources */,
+				9B5D7DE723F331220017DB7F /* AppJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,6 +730,7 @@
 				9B5D7DDE23F311A60017DB7F /* UIImageView.swift in Sources */,
 				9BFBD18D23D4F8010097A4DC /* ProfileViewController.swift in Sources */,
 				9BFBD19123D4F82F0097A4DC /* MapViewController.swift in Sources */,
+				9B5D7DEB23F331B60017DB7F /* App.swift in Sources */,
 				9BDBCADC23CE080700B96973 /* LoginViewController.swift in Sources */,
 				9BFBD19323D4F84A0097A4DC /* APIManager.swift in Sources */,
 				9BE79A4223CD20D100669BCC /* SceneDelegate.swift in Sources */,
