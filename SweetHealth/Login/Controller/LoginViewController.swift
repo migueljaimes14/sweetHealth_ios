@@ -24,16 +24,16 @@ class LoginViewController: BaseViewController {
     }
     
     func setupView(){
-        logoImage.image = #imageLiteral(resourceName: "imageCardBack")
-        logoImage.contentMode = .scaleAspectFill
-        emailLabel.text = Literals.titleEmail
-        paswordLabel.text = Literals.titlePassword
+        logoImage?.image = #imageLiteral(resourceName: "imageCardBack")
+        logoImage?.contentMode = .scaleAspectFill
+        emailLabel?.text = Literals.titleEmail
+        paswordLabel?.text = Literals.titlePassword
         self.delegate()
     }
     
     func delegate() {
-        self.emailImput.delegate = self
-        self.passwordImput.delegate = self
+        self.emailImput?.delegate = self
+        self.passwordImput?.delegate = self
     }
 }
 

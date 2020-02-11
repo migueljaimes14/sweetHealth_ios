@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+class RegisterViewController: BaseViewController {
     
     @IBOutlet weak var logoImage: UIImageView!
     

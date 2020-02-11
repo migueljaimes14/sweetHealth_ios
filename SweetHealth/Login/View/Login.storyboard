@@ -56,6 +56,15 @@
                                     <action selector="loginClicked:" destination="jVD-fI-xmH" eventType="touchUpInside" id="eiD-sF-eSp"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXx-aW-RPr">
+                                <rect key="frame" x="298" y="617" width="57" height="30"/>
+                                <state key="normal" title="Registro">
+                                    <color key="titleColor" red="0.53328466415405273" green="0.53336447477340698" blue="0.53326719999313354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vxt-zn-RKd" kind="show" id="Xko-wB-ETb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -69,11 +78,13 @@
                             <constraint firstItem="cMV-5L-9ty" firstAttribute="top" secondItem="SJC-3V-pJ5" secondAttribute="bottom" constant="10" id="S8n-mZ-rrZ"/>
                             <constraint firstItem="RQG-ae-6TA" firstAttribute="trailing" secondItem="qqC-xT-TgF" secondAttribute="trailing" constant="45" id="UG5-Qg-kf3"/>
                             <constraint firstItem="tvK-Zt-iVo" firstAttribute="centerX" secondItem="gRv-n1-c5U" secondAttribute="centerX" id="Ufh-oo-rsh"/>
+                            <constraint firstItem="RQG-ae-6TA" firstAttribute="trailing" secondItem="wXx-aW-RPr" secondAttribute="trailing" constant="20" id="XWD-m5-rLo"/>
                             <constraint firstItem="tvK-Zt-iVo" firstAttribute="width" secondItem="gRv-n1-c5U" secondAttribute="width" multiplier="0.64" id="dHY-sC-6eT"/>
                             <constraint firstItem="tvK-Zt-iVo" firstAttribute="top" secondItem="RQG-ae-6TA" secondAttribute="top" constant="37" id="eDg-Hp-tAJ"/>
                             <constraint firstItem="cMV-5L-9ty" firstAttribute="leading" secondItem="RQG-ae-6TA" secondAttribute="leading" constant="45" id="fsZ-WG-hXV"/>
                             <constraint firstItem="qqC-xT-TgF" firstAttribute="top" secondItem="mha-bg-yOU" secondAttribute="bottom" constant="8" id="hAN-b7-N3y"/>
                             <constraint firstItem="RQG-ae-6TA" firstAttribute="trailing" secondItem="tMN-8t-tYC" secondAttribute="trailing" constant="75" id="i5d-Nr-KZS"/>
+                            <constraint firstItem="RQG-ae-6TA" firstAttribute="bottom" secondItem="wXx-aW-RPr" secondAttribute="bottom" constant="20" id="k6Y-N3-jnz"/>
                             <constraint firstItem="RQG-ae-6TA" firstAttribute="bottom" secondItem="tMN-8t-tYC" secondAttribute="bottom" constant="136" id="lUi-oq-PbU"/>
                             <constraint firstItem="cMV-5L-9ty" firstAttribute="centerX" secondItem="gRv-n1-c5U" secondAttribute="centerX" id="sXa-HT-RDr"/>
                             <constraint firstItem="mha-bg-yOU" firstAttribute="centerX" secondItem="gRv-n1-c5U" secondAttribute="centerX" id="tNx-Pf-VP8"/>
@@ -93,6 +104,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kn3-kO-vXs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138.40000000000001" y="129.98500749625188"/>
+        </scene>
+        <!--Register-->
+        <scene sceneID="WA2-fl-Fif">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Register" id="vxt-zn-RKd" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Bmo-HS-pTU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IpS-2O-HLB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="679" y="394"/>
         </scene>
     </scenes>
 </document>
