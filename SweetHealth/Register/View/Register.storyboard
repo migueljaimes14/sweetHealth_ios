@@ -16,27 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z4w-Jj-Udm">
-                                <rect key="frame" x="20" y="14" width="109" height="65"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Iq-fu-5Dz" customClass="RoundButton" customModule="SweetHealth" customModuleProvider="target">
-                                <rect key="frame" x="140" y="609" width="95" height="45"/>
-                                <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="UgR-Sq-8QO"/>
-                                </constraints>
-                                <state key="normal" title="Registrate">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="25"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="registerClicked:" destination="Jgz-pd-sgy" eventType="touchUpInside" id="Fdc-C2-JXm"/>
-                                </connections>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="A1m-Em-uQD">
                                 <rect key="frame" x="20" y="76" width="335" height="500"/>
                                 <subviews>
@@ -184,7 +163,7 @@
                                         <rect key="frame" x="0.0" y="400" width="335" height="50"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5r-Gi-KJj">
-                                                <rect key="frame" x="20" y="20" width="307" height="21"/>
+                                                <rect key="frame" x="20" y="20" width="307" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.53328466415405273" green="0.53336447477340698" blue="0.53326719999313354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -228,19 +207,40 @@
                                     <constraint firstItem="cNx-JH-DL5" firstAttribute="trailing" secondItem="Qkf-Vq-7Wu" secondAttribute="trailing" id="zqm-6P-rc3"/>
                                 </constraints>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z4w-Jj-Udm">
+                                <rect key="frame" x="20" y="14" width="109" height="65"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Iq-fu-5Dz" customClass="RoundButton" customModule="SweetHealth" customModuleProvider="target">
+                                <rect key="frame" x="123" y="594" width="129" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="UgR-Sq-8QO"/>
+                                </constraints>
+                                <state key="normal" title="Registrate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="registerClicked:" destination="Jgz-pd-sgy" eventType="touchUpInside" id="Fdc-C2-JXm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="A1m-Em-uQD" firstAttribute="centerX" secondItem="7Iq-fu-5Dz" secondAttribute="centerX" id="3dL-ST-D00"/>
-                            <constraint firstItem="ZeH-F4-cPb" firstAttribute="bottom" secondItem="7Iq-fu-5Dz" secondAttribute="bottom" constant="13" id="3uh-sn-FXz"/>
+                            <constraint firstItem="ZeH-F4-cPb" firstAttribute="bottom" secondItem="7Iq-fu-5Dz" secondAttribute="bottom" constant="33" id="3uh-sn-FXz"/>
                             <constraint firstItem="Z4w-Jj-Udm" firstAttribute="top" secondItem="ZeH-F4-cPb" secondAttribute="top" constant="14" id="8JH-wy-edU"/>
                             <constraint firstItem="ZeH-F4-cPb" firstAttribute="trailing" secondItem="A1m-Em-uQD" secondAttribute="trailing" constant="20" id="GVB-ej-CfT"/>
                             <constraint firstItem="A1m-Em-uQD" firstAttribute="top" secondItem="ZeH-F4-cPb" secondAttribute="top" constant="76" id="YLI-Zi-hSf"/>
                             <constraint firstItem="ZeH-F4-cPb" firstAttribute="bottom" secondItem="Z4w-Jj-Udm" secondAttribute="bottom" constant="588" id="dq7-NC-rqz"/>
-                            <constraint firstItem="7Iq-fu-5Dz" firstAttribute="top" secondItem="A1m-Em-uQD" secondAttribute="bottom" constant="33" id="jVk-b2-S61"/>
+                            <constraint firstItem="7Iq-fu-5Dz" firstAttribute="top" secondItem="A1m-Em-uQD" secondAttribute="bottom" constant="18" id="jVk-b2-S61"/>
                             <constraint firstItem="A1m-Em-uQD" firstAttribute="leading" secondItem="ZeH-F4-cPb" secondAttribute="leading" constant="20" id="lQh-9O-ZP1"/>
                             <constraint firstItem="ZeH-F4-cPb" firstAttribute="trailing" secondItem="Z4w-Jj-Udm" secondAttribute="trailing" constant="246" id="uM1-4A-LpC"/>
-                            <constraint firstItem="7Iq-fu-5Dz" firstAttribute="leading" secondItem="ZeH-F4-cPb" secondAttribute="leading" constant="140" id="uOo-qo-Iwy"/>
+                            <constraint firstItem="7Iq-fu-5Dz" firstAttribute="leading" secondItem="ZeH-F4-cPb" secondAttribute="leading" constant="123" id="uOo-qo-Iwy"/>
                             <constraint firstItem="Z4w-Jj-Udm" firstAttribute="leading" secondItem="A1m-Em-uQD" secondAttribute="leading" id="yHm-f3-iNB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZeH-F4-cPb"/>

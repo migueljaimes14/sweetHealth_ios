@@ -41,8 +41,8 @@
                                 <color key="textColor" red="0.53328466415405273" green="0.53336447477340698" blue="0.53326719999313354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMN-8t-tYC" customClass="RoundButton" customModule="SweetHealth" customModuleProvider="target">
-                                <rect key="frame" x="75" y="501" width="225" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMN-8t-tYC" customClass="RoundButton" customModule="SweetHealth" customModuleProvider="target">
+                                <rect key="frame" x="75" y="501" width="225" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.73725490196078436" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Ingresar">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -85,7 +85,7 @@
                             <constraint firstItem="qqC-xT-TgF" firstAttribute="top" secondItem="mha-bg-yOU" secondAttribute="bottom" constant="8" id="hAN-b7-N3y"/>
                             <constraint firstItem="RQG-ae-6TA" firstAttribute="trailing" secondItem="tMN-8t-tYC" secondAttribute="trailing" constant="75" id="i5d-Nr-KZS"/>
                             <constraint firstItem="RQG-ae-6TA" firstAttribute="bottom" secondItem="wXx-aW-RPr" secondAttribute="bottom" constant="20" id="k6Y-N3-jnz"/>
-                            <constraint firstItem="RQG-ae-6TA" firstAttribute="bottom" secondItem="tMN-8t-tYC" secondAttribute="bottom" constant="136" id="lUi-oq-PbU"/>
+                            <constraint firstItem="RQG-ae-6TA" firstAttribute="bottom" secondItem="tMN-8t-tYC" secondAttribute="bottom" constant="126" id="lUi-oq-PbU"/>
                             <constraint firstItem="cMV-5L-9ty" firstAttribute="centerX" secondItem="gRv-n1-c5U" secondAttribute="centerX" id="sXa-HT-RDr"/>
                             <constraint firstItem="mha-bg-yOU" firstAttribute="centerX" secondItem="gRv-n1-c5U" secondAttribute="centerX" id="tNx-Pf-VP8"/>
                             <constraint firstItem="mha-bg-yOU" firstAttribute="top" secondItem="tvK-Zt-iVo" secondAttribute="bottom" constant="47" id="tsB-16-fdz"/>
