@@ -11,11 +11,11 @@
 		591714336FAA2EA1A3C75F3B /* Pods_SweetHealthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEBA6D2714AC84D8EEA67BF /* Pods_SweetHealthTests.framework */; };
 		65EE2C3B62E004CBE48358FC /* Pods_SweetHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CA9F49F0B5AD74CF1CC6A0 /* Pods_SweetHealth.framework */; };
 		9B5D7DD623F1EE680017DB7F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DD523F1EE680017DB7F /* RegisterViewController.swift */; };
-		9B5D7DD823F1EE8F0017DB7F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DD723F1EE8F0017DB7F /* HomeViewController.swift */; };
 		9B5D7DDA23F260D10017DB7F /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DD923F260D10017DB7F /* Validator.swift */; };
 		9B5D7DDC23F3101F0017DB7F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DDB23F3101F0017DB7F /* HomeTableViewCell.swift */; };
 		9B5D7DDE23F311A60017DB7F /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DDD23F311A60017DB7F /* UIImageView.swift */; };
 		9B5D7DE023F312530017DB7F /* MyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DDF23F312530017DB7F /* MyColors.swift */; };
+		9B5D7DE223F3142A0017DB7F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DE123F3142A0017DB7F /* HomeTableViewController.swift */; };
 		9BD2399023F0591200D82FFF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2398F23F0591200D82FFF /* BaseViewController.swift */; };
 		9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2399123F0607A00D82FFF /* RoundButton.swift */; };
 		9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBCAD623CE06E400B96973 /* Literals.swift */; };
@@ -68,11 +68,11 @@
 		646E5955A1391903F4620739 /* Pods-SweetHealthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealthTests.release.xcconfig"; path = "Target Support Files/Pods-SweetHealthTests/Pods-SweetHealthTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D448FF94A8676287D795588 /* Pods-SweetHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealth/Pods-SweetHealth.debug.xcconfig"; sourceTree = "<group>"; };
 		9B5D7DD523F1EE680017DB7F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		9B5D7DD723F1EE8F0017DB7F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9B5D7DD923F260D10017DB7F /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		9B5D7DDB23F3101F0017DB7F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		9B5D7DDD23F311A60017DB7F /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		9B5D7DDF23F312530017DB7F /* MyColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColors.swift; sourceTree = "<group>"; };
+		9B5D7DE123F3142A0017DB7F /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		9BD2398F23F0591200D82FFF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9BD2399123F0607A00D82FFF /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		9BDBCAD623CE06E400B96973 /* Literals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literals.swift; sourceTree = "<group>"; };
@@ -149,6 +149,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9B5D7DE323F318870017DB7F /* JsonsHardcoded */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JsonsHardcoded;
+			sourceTree = "<group>";
+		};
 		9BDBCAD123CE060800B96973 /* Register */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +219,7 @@
 		9BE79A3E23CD20D100669BCC /* SweetHealth */ = {
 			isa = PBXGroup;
 			children = (
+				9B5D7DE323F318870017DB7F /* JsonsHardcoded */,
 				9BFBD17423D3A9D70097A4DC /* API */,
 				9BDBCAD223CE062200B96973 /* Utils */,
 				9BE79A7623CD2DA600669BCC /* Map */,
@@ -381,8 +389,8 @@
 		9BE79A7F23CD2E1F00669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9B5D7DD723F1EE8F0017DB7F /* HomeViewController.swift */,
 				9B5D7DDB23F3101F0017DB7F /* HomeTableViewCell.swift */,
+				9B5D7DE123F3142A0017DB7F /* HomeTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -700,7 +708,6 @@
 				9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */,
 				9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */,
 				9BFBD18523D4F7490097A4DC /* ScheduleControlViewController.swift in Sources */,
-				9B5D7DD823F1EE8F0017DB7F /* HomeViewController.swift in Sources */,
 				9B5D7DE023F312530017DB7F /* MyColors.swift in Sources */,
 				9BFBD18923D4F7C40097A4DC /* StadisticViewController.swift in Sources */,
 				9B5D7DD623F1EE680017DB7F /* RegisterViewController.swift in Sources */,
@@ -713,6 +720,7 @@
 				9BE79A4223CD20D100669BCC /* SceneDelegate.swift in Sources */,
 				9B5D7DDC23F3101F0017DB7F /* HomeTableViewCell.swift in Sources */,
 				9BFBD18123D3BF8A0097A4DC /* DetailViewController.swift in Sources */,
+				9B5D7DE223F3142A0017DB7F /* HomeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
