@@ -21,6 +21,8 @@ class LoginViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupView()
+        let apiManager = ApiManger()
+        apiManager.getAllData()
     }
     
     func setupView(){

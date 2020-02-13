@@ -7,7 +7,20 @@
 //
 
 import Foundation
+import Alamofire
 
 class ApiManger {
-    
+    func getAllData(){
+        guard let path = Bundle.main.path(forResource: "AppJSON", ofType: "json") else {return}
+        let url = URL(fileURLWithPath: path)
+        Alamofire.request(url).responseJSON { response in
+            switch (response.result) {
+            case .success:
+                guard let data = response.result.value as? [String: Any] else {return}
+                print(data)
+            case .failure(_):
+                print("Error de conexion")
+            }
+        }
+    }
 }

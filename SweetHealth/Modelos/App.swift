@@ -5,19 +5,6 @@
 
 import Foundation
 
-// MARK: - App
-class App: Codable {
-    let app: [AppElement]?
-
-    enum CodingKeys: String, CodingKey {
-        case app
-    }
-
-    init(app: [AppElement]?) {
-        self.app = app
-    }
-}
-
 // MARK: - AppElement
 class AppElement: Codable {
     let id: Int?
@@ -52,3 +39,5 @@ enum Name: String, Codable {
     case reloj = "Reloj"
     case whatsapp = "Whatsapp"
 }
+
+typealias App = [AppElement]
