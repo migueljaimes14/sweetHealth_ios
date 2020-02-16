@@ -10,10 +10,23 @@ import UIKit
 
 class HomeTableViewController: UITableViewController {
 
+    var listApps:[AppElement]? = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.callApi()
        
+    }
+    
+    func callApi(){
+        let apiManager = ApiManger()
+        apiManager.getAllData(completion:{ appResult in
+            let arrayApps = appResult
+            self.addListApp(ArrayApp:arrayApps)
+        })
+    }
+    
+    func addListApp(ArrayApp arrayApp:App){
     }
 
     // MARK: - Table view data source

@@ -9,6 +9,7 @@
 import Foundation
 
 open class Literals{
+    static var errorConexion = "Error al conectar"
     static var titleEmail = "Escribe tu nombre de usuario"
     static var titlePassword = "Escribe tu contraseña"
     static var registerNameUser = "Escribe tu nombre"
