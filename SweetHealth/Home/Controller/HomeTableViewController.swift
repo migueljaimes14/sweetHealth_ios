@@ -9,46 +9,56 @@
 import UIKit
 
 class HomeTableViewController: UITableViewController {
-
-    var listApps:[AppElement]? = []
+    
+    var listApps:[AppElement] = [] {
+        didSet {
+            self.tableView.reloadData()
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.callApi()
-       
+        self.tableView.reloadData()
     }
     
     func callApi(){
         let apiManager = ApiManger()
         apiManager.getAllData(completion:{ appResult in
-            let arrayApps = appResult
-            self.addListApp(ArrayApp:arrayApps)
+            self.listApps = self.CreatListApp(ArrayApp:appResult)
         })
+        
     }
     
-    func addListApp(ArrayApp arrayApp:App){
+    func CreatListApp(ArrayApp arrayApp:App)->[AppElement]{
+        let arrayLocal = arrayApp.compactMap( {result in
+            AppElement(id: result.id, name: result.name, image: result.image, date: result.date, time: result.time, event: result.event, latitude: result.latitude, longitude: result.longitude) })
+        return arrayLocal
     }
-
+    
     // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-       
-        return 0
-    }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-      
-        return 0
+        let section = listApps.count
+        return section
     }
-   
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let imageDownloader = ImagenCharged()
+        guard let imageUrl = listApps[indexPath.row].image else { fatalError("URL imagen no encontrada") }
         let cellIdentifier = "HomeTableViewCell"
         guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? HomeTableViewCell else {
             fatalError("La celda no es una instancia de HomeCell")
         }
+        cell.nameApp.text = listApps[indexPath.row].name.map { $0.rawValue }
+        cell.timerApp.text = listApps[indexPath.row].time
+        imageDownloader.downloader(URLString: imageUrl, completion: { (image:UIImage?) in
+            cell.imageApp.image = image
+        })
         return cell
     }
     
-    
-
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "segueDetail", sender: nil)
+    }
 }

@@ -16,12 +16,15 @@ class ApiManger {
         Alamofire.request(url).responseJSON { response in
             switch (response.result) {
             case .success:
-                if let jsonData = response.result.value  {
-                  print("JSON: \(jsonData)") 
+                let decoder = JSONDecoder()
+                guard let value = try? decoder.decode(App.self, from: response.data!) else {
+                    fatalError("Error decoder")
                 }
+                completion(value)
             case .failure(_):
-                fatalError(Literals.errorConexion)
-            }
+                print("Error de conexion")
+                
         }
     }
+}
 }
