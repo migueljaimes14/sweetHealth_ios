@@ -19,10 +19,10 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="KJw-dc-zcv" kind="relationship" relationship="viewControllers" id="QAL-Sg-L0f"/>
+                        <segue destination="ZeL-z7-yEX" kind="relationship" relationship="viewControllers" id="voP-wE-AOk"/>
                         <segue destination="C5d-cF-FOH" kind="relationship" relationship="viewControllers" id="XkO-M1-4mg"/>
-                        <segue destination="jOw-Kj-TIY" kind="relationship" relationship="viewControllers" id="9OP-Dx-PA4"/>
                         <segue destination="zeE-3V-bf1" kind="relationship" relationship="viewControllers" id="RbD-WH-eec"/>
+                        <segue destination="ezH-UH-EJW" kind="relationship" relationship="viewControllers" id="VOC-Aj-5dK"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FoP-v9-uPk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -32,7 +32,6 @@
         <!--Perfil-->
         <scene sceneID="fEQ-Yk-aNL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tVQ-2Z-bhi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="C5d-cF-FOH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xwd-18-nPD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -114,6 +113,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Perfil" image="person.circle" catalog="system" id="0Hr-YL-Au0"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVQ-2Z-bhi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1474.4000000000001" y="915.29235382308855"/>
         </scene>
@@ -144,7 +144,7 @@
             </objects>
             <point key="canvasLocation" x="-555" y="-660"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Aplicaciones usadas-->
         <scene sceneID="78v-d4-cAi">
             <objects>
                 <tableViewController modalPresentationStyle="fullScreen" id="KJw-dc-zcv" customClass="HomeTableViewController" customModule="SweetHealth" customModuleProvider="target" sceneMemberID="viewController">
@@ -252,28 +252,28 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Apps" image="square.grid.2x2" catalog="system" id="WRW-H7-jlf"/>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="2bm-O5-Yzg"/>
+                    <navigationItem key="navigationItem" title="Aplicaciones usadas" id="2bm-O5-Yzg"/>
                     <connections>
                         <segue destination="GFU-Kd-bxx" kind="show" identifier="segueDetail" id="fxf-kE-jhD"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O8h-T9-LAw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-564" y="107"/>
+            <point key="canvasLocation" x="156" y="107"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="d9U-PF-bNx">
             <objects>
                 <viewController id="GFU-Kd-bxx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="50r-7t-OXF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="O35-Ga-eLf">
-                                <rect key="frame" x="10" y="5" width="355" height="637"/>
+                                <rect key="frame" x="10" y="49" width="355" height="569"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4A-w4-3rN">
-                                        <rect key="frame" x="0.0" y="0.0" width="323" height="265"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="323" height="197"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qzs-Sk-IOG">
                                                 <rect key="frame" x="128" y="20" width="175" height="64"/>
@@ -285,13 +285,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YGX-Vb-bhV">
-                                                <rect key="frame" x="20" y="20" width="100" height="100"/>
+                                                <rect key="frame" x="20" y="20" width="100" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="t6Y-PZ-ufg"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tiempo de Uso" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPS-TF-u0H">
-                                                <rect key="frame" x="20" y="195" width="303" height="70"/>
+                                                <rect key="frame" x="20" y="127" width="303" height="70"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="VOQ-hZ-bnD"/>
                                                 </constraints>
@@ -314,7 +314,7 @@
                                         </constraints>
                                     </view>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XNp-c5-gz8">
-                                        <rect key="frame" x="0.0" y="265" width="355" height="372"/>
+                                        <rect key="frame" x="0.0" y="197" width="355" height="372"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="372" id="Jkn-cd-HOn"/>
@@ -350,9 +350,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kSZ-aq-O8k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="232.80000000000001" y="106.59670164917542"/>
+            <point key="canvasLocation" x="898" y="107"/>
         </scene>
-        <!--Limitar App-->
+        <!--Item-->
+        <scene sceneID="qwc-IT-5XF">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="htG-Mr-5mB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController id="ZeL-z7-yEX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="square.split.2x2" catalog="system" id="BE3-2f-pql"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sDi-Dd-fHG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="KJw-dc-zcv" kind="relationship" relationship="rootViewController" id="cW0-qY-Ut5"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-606" y="107"/>
+        </scene>
+        <!--Apps-->
         <scene sceneID="S5A-Uf-jnf">
             <objects>
                 <collectionViewController id="jOw-Kj-TIY" sceneMemberID="viewController">
@@ -382,20 +399,21 @@
                         </connections>
                     </collectionView>
                     <tabBarItem key="tabBarItem" title="Limitar App" image="clock" catalog="system" id="cmz-yp-6cu"/>
+                    <navigationItem key="navigationItem" title="Apps" id="HaD-zi-7b6"/>
                     <connections>
                         <segue destination="jQ2-jY-L7Z" kind="show" identifier="segueLimitApp" id="fcI-fl-e99"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hMp-LF-Ukb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-687" y="915"/>
+            <point key="canvasLocation" x="156" y="915"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="b3M-Ws-E5g">
             <objects>
-                <viewController id="jQ2-jY-L7Z" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="jQ2-jY-L7Z" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RVu-cl-Se5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="xTY-mS-swe"/>
@@ -404,7 +422,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B2r-DQ-ahc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="156" y="914"/>
+            <point key="canvasLocation" x="945" y="914"/>
+        </scene>
+        <!--Limitar App-->
+        <scene sceneID="ELh-BT-BCF">
+            <objects>
+                <navigationController id="ezH-UH-EJW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Limitar App" image="clock" catalog="system" id="8e2-Ae-Dcb"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jac-EH-uD5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="jOw-Kj-TIY" kind="relationship" relationship="rootViewController" id="aMG-Tf-WkC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4DK-zH-PmB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-694" y="915"/>
         </scene>
     </scenes>
     <resources>
@@ -413,5 +448,6 @@
         <image name="mappin.and.ellipse" catalog="system" width="58" height="64"/>
         <image name="person.circle" catalog="system" width="64" height="60"/>
         <image name="square.grid.2x2" catalog="system" width="64" height="56"/>
+        <image name="square.split.2x2" catalog="system" width="64" height="56"/>
     </resources>
 </document>
