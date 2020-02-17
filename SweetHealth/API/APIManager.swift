@@ -23,7 +23,6 @@ class ApiManger {
                 completion(value)
             case .failure(_):
                 print("Error de conexion")
-                
         }
     }
 }

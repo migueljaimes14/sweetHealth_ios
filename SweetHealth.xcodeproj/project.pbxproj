@@ -19,6 +19,12 @@
 		9B5D7DE723F331220017DB7F /* AppJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D7DE623F331220017DB7F /* AppJSON.json */; };
 		9B5D7DEB23F331B60017DB7F /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DEA23F331B60017DB7F /* App.swift */; };
 		9B5DF64823F9A318000E04C6 /* ImagenCharged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5DF64723F9A318000E04C6 /* ImagenCharged.swift */; };
+		9BA89B8223FB337900CA0DC2 /* facebookJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B7C23FB337800CA0DC2 /* facebookJSON.json */; };
+		9BA89B8323FB337900CA0DC2 /* whatsappJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B7D23FB337900CA0DC2 /* whatsappJSON.json */; };
+		9BA89B8423FB337900CA0DC2 /* relojJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B7E23FB337900CA0DC2 /* relojJSON.json */; };
+		9BA89B8523FB337900CA0DC2 /* gmailJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B7F23FB337900CA0DC2 /* gmailJSON.json */; };
+		9BA89B8623FB337900CA0DC2 /* chromeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B8023FB337900CA0DC2 /* chromeJSON.json */; };
+		9BA89B8723FB337900CA0DC2 /* instagramJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B8123FB337900CA0DC2 /* instagramJSON.json */; };
 		9BD2399023F0591200D82FFF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2398F23F0591200D82FFF /* BaseViewController.swift */; };
 		9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2399123F0607A00D82FFF /* RoundButton.swift */; };
 		9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBCAD623CE06E400B96973 /* Literals.swift */; };
@@ -74,6 +80,12 @@
 		9B5D7DE623F331220017DB7F /* AppJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppJSON.json; sourceTree = "<group>"; };
 		9B5D7DEA23F331B60017DB7F /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		9B5DF64723F9A318000E04C6 /* ImagenCharged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenCharged.swift; sourceTree = "<group>"; };
+		9BA89B7C23FB337800CA0DC2 /* facebookJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = facebookJSON.json; sourceTree = "<group>"; };
+		9BA89B7D23FB337900CA0DC2 /* whatsappJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = whatsappJSON.json; sourceTree = "<group>"; };
+		9BA89B7E23FB337900CA0DC2 /* relojJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = relojJSON.json; sourceTree = "<group>"; };
+		9BA89B7F23FB337900CA0DC2 /* gmailJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gmailJSON.json; sourceTree = "<group>"; };
+		9BA89B8023FB337900CA0DC2 /* chromeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chromeJSON.json; sourceTree = "<group>"; };
+		9BA89B8123FB337900CA0DC2 /* instagramJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = instagramJSON.json; sourceTree = "<group>"; };
 		9BD2398F23F0591200D82FFF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9BD2399123F0607A00D82FFF /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		9BDBCAD623CE06E400B96973 /* Literals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literals.swift; sourceTree = "<group>"; };
@@ -148,6 +160,12 @@
 		9B5D7DE323F318870017DB7F /* JsonsHardcoded */ = {
 			isa = PBXGroup;
 			children = (
+				9BA89B8023FB337900CA0DC2 /* chromeJSON.json */,
+				9BA89B7C23FB337800CA0DC2 /* facebookJSON.json */,
+				9BA89B8123FB337900CA0DC2 /* instagramJSON.json */,
+				9BA89B7F23FB337900CA0DC2 /* gmailJSON.json */,
+				9BA89B7E23FB337900CA0DC2 /* relojJSON.json */,
+				9BA89B7D23FB337900CA0DC2 /* whatsappJSON.json */,
 				9B5D7DE623F331220017DB7F /* AppJSON.json */,
 			);
 			path = JsonsHardcoded;
@@ -528,11 +546,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BDBCADA23CE07F600B96973 /* Login.storyboard in Resources */,
+				9BA89B8723FB337900CA0DC2 /* instagramJSON.json in Resources */,
 				9BE79A4C23CD20D600669BCC /* LaunchScreen.storyboard in Resources */,
 				9BE79A4923CD20D600669BCC /* Assets.xcassets in Resources */,
+				9BA89B8623FB337900CA0DC2 /* chromeJSON.json in Resources */,
 				9BFBD17A23D3BBE10097A4DC /* Home.storyboard in Resources */,
 				9BE79A4723CD20D100669BCC /* Main.storyboard in Resources */,
+				9BA89B8523FB337900CA0DC2 /* gmailJSON.json in Resources */,
+				9BA89B8223FB337900CA0DC2 /* facebookJSON.json in Resources */,
 				9BFBD17623D3BABB0097A4DC /* Register.storyboard in Resources */,
+				9BA89B8323FB337900CA0DC2 /* whatsappJSON.json in Resources */,
+				9BA89B8423FB337900CA0DC2 /* relojJSON.json in Resources */,
 				9B5D7DE723F331220017DB7F /* AppJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
