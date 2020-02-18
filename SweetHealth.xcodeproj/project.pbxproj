@@ -25,6 +25,9 @@
 		9BA89B8523FB337900CA0DC2 /* gmailJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B7F23FB337900CA0DC2 /* gmailJSON.json */; };
 		9BA89B8623FB337900CA0DC2 /* chromeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B8023FB337900CA0DC2 /* chromeJSON.json */; };
 		9BA89B8723FB337900CA0DC2 /* instagramJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B8123FB337900CA0DC2 /* instagramJSON.json */; };
+		9BA89B8923FB48E700CA0DC2 /* listAppJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B8823FB48E700CA0DC2 /* listAppJSON.json */; };
+		9BA89B8B23FB4DE700CA0DC2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA89B8A23FB4DE700CA0DC2 /* DetailViewController.swift */; };
+		9BA89B8D23FB4F0600CA0DC2 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA89B8C23FB4F0600CA0DC2 /* DetailTableViewCell.swift */; };
 		9BD2399023F0591200D82FFF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2398F23F0591200D82FFF /* BaseViewController.swift */; };
 		9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2399123F0607A00D82FFF /* RoundButton.swift */; };
 		9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBCAD623CE06E400B96973 /* Literals.swift */; };
@@ -40,8 +43,6 @@
 		9BE79A6223CD20D600669BCC /* SweetHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A6123CD20D600669BCC /* SweetHealthUITests.swift */; };
 		9BFBD17623D3BABB0097A4DC /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17523D3BABA0097A4DC /* Register.storyboard */; };
 		9BFBD17A23D3BBE10097A4DC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17923D3BBE10097A4DC /* Home.storyboard */; };
-		9BFBD18123D3BF8A0097A4DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD18023D3BF8A0097A4DC /* DetailViewController.swift */; };
-		9BFBD18523D4F7490097A4DC /* ScheduleControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD18423D4F7490097A4DC /* ScheduleControlViewController.swift */; };
 		9BFBD18923D4F7C40097A4DC /* StadisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD18823D4F7C40097A4DC /* StadisticViewController.swift */; };
 		9BFBD18D23D4F8010097A4DC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD18C23D4F8010097A4DC /* ProfileViewController.swift */; };
 		9BFBD19123D4F82F0097A4DC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD19023D4F82F0097A4DC /* MapViewController.swift */; };
@@ -86,6 +87,9 @@
 		9BA89B7F23FB337900CA0DC2 /* gmailJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gmailJSON.json; sourceTree = "<group>"; };
 		9BA89B8023FB337900CA0DC2 /* chromeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chromeJSON.json; sourceTree = "<group>"; };
 		9BA89B8123FB337900CA0DC2 /* instagramJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = instagramJSON.json; sourceTree = "<group>"; };
+		9BA89B8823FB48E700CA0DC2 /* listAppJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listAppJSON.json; sourceTree = "<group>"; };
+		9BA89B8A23FB4DE700CA0DC2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9BA89B8C23FB4F0600CA0DC2 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		9BD2398F23F0591200D82FFF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9BD2399123F0607A00D82FFF /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		9BDBCAD623CE06E400B96973 /* Literals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literals.swift; sourceTree = "<group>"; };
@@ -107,8 +111,6 @@
 		9BE79A6323CD20D600669BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BFBD17523D3BABA0097A4DC /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		9BFBD17923D3BBE10097A4DC /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		9BFBD18023D3BF8A0097A4DC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		9BFBD18423D4F7490097A4DC /* ScheduleControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleControlViewController.swift; sourceTree = "<group>"; };
 		9BFBD18823D4F7C40097A4DC /* StadisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadisticViewController.swift; sourceTree = "<group>"; };
 		9BFBD18C23D4F8010097A4DC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		9BFBD19023D4F82F0097A4DC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		9B5D7DE323F318870017DB7F /* JsonsHardcoded */ = {
 			isa = PBXGroup;
 			children = (
+				9BA89B8823FB48E700CA0DC2 /* listAppJSON.json */,
 				9BA89B8023FB337900CA0DC2 /* chromeJSON.json */,
 				9BA89B7C23FB337800CA0DC2 /* facebookJSON.json */,
 				9BA89B8123FB337900CA0DC2 /* instagramJSON.json */,
@@ -378,7 +381,8 @@
 		9BE79A8023CD2E2200669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9BFBD18023D3BF8A0097A4DC /* DetailViewController.swift */,
+				9BA89B8A23FB4DE700CA0DC2 /* DetailViewController.swift */,
+				9BA89B8C23FB4F0600CA0DC2 /* DetailTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -386,7 +390,6 @@
 		9BE79A8123CD2E2700669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9BFBD18423D4F7490097A4DC /* ScheduleControlViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -548,6 +551,7 @@
 				9BDBCADA23CE07F600B96973 /* Login.storyboard in Resources */,
 				9BA89B8723FB337900CA0DC2 /* instagramJSON.json in Resources */,
 				9BE79A4C23CD20D600669BCC /* LaunchScreen.storyboard in Resources */,
+				9BA89B8923FB48E700CA0DC2 /* listAppJSON.json in Resources */,
 				9BE79A4923CD20D600669BCC /* Assets.xcassets in Resources */,
 				9BA89B8623FB337900CA0DC2 /* chromeJSON.json in Resources */,
 				9BFBD17A23D3BBE10097A4DC /* Home.storyboard in Resources */,
@@ -690,9 +694,10 @@
 				9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */,
 				9B5DF64823F9A318000E04C6 /* ImagenCharged.swift in Sources */,
 				9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */,
-				9BFBD18523D4F7490097A4DC /* ScheduleControlViewController.swift in Sources */,
+				9BA89B8B23FB4DE700CA0DC2 /* DetailViewController.swift in Sources */,
 				9B5D7DE023F312530017DB7F /* MyColors.swift in Sources */,
 				9BFBD18923D4F7C40097A4DC /* StadisticViewController.swift in Sources */,
+				9BA89B8D23FB4F0600CA0DC2 /* DetailTableViewCell.swift in Sources */,
 				9B5D7DD623F1EE680017DB7F /* RegisterViewController.swift in Sources */,
 				9BE79A4023CD20D100669BCC /* AppDelegate.swift in Sources */,
 				9B5D7DDE23F311A60017DB7F /* UIImageView.swift in Sources */,
@@ -703,7 +708,6 @@
 				9BFBD19323D4F84A0097A4DC /* APIManager.swift in Sources */,
 				9BE79A4223CD20D100669BCC /* SceneDelegate.swift in Sources */,
 				9B5D7DDC23F3101F0017DB7F /* HomeTableViewCell.swift in Sources */,
-				9BFBD18123D3BF8A0097A4DC /* DetailViewController.swift in Sources */,
 				9B5D7DE223F3142A0017DB7F /* HomeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

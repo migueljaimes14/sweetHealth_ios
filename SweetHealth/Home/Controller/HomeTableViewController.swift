@@ -24,7 +24,7 @@ class HomeTableViewController: UITableViewController {
     
     func callApi(){
         let apiManager = ApiManger()
-        apiManager.getAllData(completion:{ appResult in
+        apiManager.getAllData(File: "listAppJSON", completion:{ appResult in
             self.listApps = self.CreatListApp(ArrayApp:appResult)
         })
         
@@ -51,7 +51,6 @@ class HomeTableViewController: UITableViewController {
             fatalError("La celda no es una instancia de HomeCell")
         }
         cell.nameApp.text = listApps[indexPath.row].name.map { $0.rawValue }
-        cell.timerApp.text = listApps[indexPath.row].time
         imageDownloader.downloader(URLString: imageUrl, completion: { (image:UIImage?) in
             cell.imageApp.image = image
         })
@@ -59,6 +58,14 @@ class HomeTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "segueDetail", sender: nil)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let indexPath = tableView.indexPathForSelectedRow {
+            guard let detailViewController = segue.destination as? DetailViewController else {return}
+            let selectRow = indexPath.row
+            detailViewController.app = listApps[selectRow]
+        }
     }
 }

@@ -10,8 +10,8 @@ import Foundation
 import Alamofire
 
 class ApiManger {
-    func getAllData(completion: @escaping (App) -> Void){
-        guard let path = Bundle.main.path(forResource: "AppJSON", ofType: "json") else {return}
+    func getAllData(File file:String,completion: @escaping (App) -> Void){
+        guard let path = Bundle.main.path(forResource: file, ofType: "json") else {return}
         let url = URL(fileURLWithPath: path)
         Alamofire.request(url).responseJSON { response in
             switch (response.result) {
