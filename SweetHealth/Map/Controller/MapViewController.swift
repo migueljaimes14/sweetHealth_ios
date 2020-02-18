@@ -12,7 +12,6 @@ import CoreLocation
 
 class MapViewController: UIViewController{
     
-    
     @IBOutlet weak var mapView: MKMapView!
     
     let locationManager = CLLocationManager()
@@ -24,6 +23,14 @@ class MapViewController: UIViewController{
         mapView.showsUserLocation = true
         checkLocationServices()
         locationManager.requestWhenInUseAuthorization()
+        self.animate()
+    }
+    
+    func animate(){
+        self.mapView.alpha = 0.0
+        UIView.animate(withDuration: 0.5, delay: 0.5, options: .curveEaseOut, animations: {
+            self.mapView.alpha = 1
+        }, completion: nil)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -45,6 +52,7 @@ class MapViewController: UIViewController{
             //
         }
     }
+    
     func centerViewOnUserLocation () {
         
         if let location = locationManager.location?.coordinate {
@@ -52,7 +60,6 @@ class MapViewController: UIViewController{
             mapView.setRegion(region, animated: true)
         }
     }
-    
     
     func addMarkers (data: [AppElement]) {
         
@@ -65,6 +72,7 @@ class MapViewController: UIViewController{
         }
         
     }
+    
     func checkLocationAuthorization () {
         
         switch CLLocationManager.authorizationStatus() {

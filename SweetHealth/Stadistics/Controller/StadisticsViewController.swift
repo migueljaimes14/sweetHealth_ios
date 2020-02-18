@@ -19,7 +19,7 @@ class StadisticsViewController: UIViewController {
     @IBOutlet weak var boxPercentage: UIView!
     @IBOutlet weak var numberPercentage: UILabel!
     @IBOutlet weak var btnSave: UIButton!
-    
+    @IBOutlet weak var titleTimer: UILabel!
     
     @IBAction func btnActionSave(_ sender: Any) {
     }
@@ -96,14 +96,27 @@ class StadisticsViewController: UIViewController {
             self.imageApp.image = image
             self.imageApp.roundImage()
         })
+        self.animation()
+        titleTimer.text = "Restringir"
         nameApp.text = app?.name.map{ $0.rawValue}
         titlePercentage.text = "Uso"
         boxPercentage.layer.cornerRadius = 7
         boxPercentage.layer.borderWidth = 3
         boxPercentage.layer.borderColor =  MyColors.pinkApp.cgColor
-        btnSave.titleLabel?.text = "Guardar cambios"
+        btnSave.setTitle("Guardar cambios", for: .normal)
         btnSave.backgroundColor = MyColors.pinkApp
         btnSave.tintColor = UIColor.white
+    }
+    
+    func animation(){
+        self.imageApp.alpha = 0.0
+        UIView.animate(withDuration: 0.5, delay: 0.5, options: .curveEaseOut, animations: {
+            self.imageApp.alpha = 1
+        }, completion: nil)
+        self.viewGraf.alpha = 0.0
+        UIView.animate(withDuration: 0.5, delay: 1, options: .curveEaseOut, animations: {
+            self.viewGraf.alpha = 1
+        }, completion: nil)
     }
     
     func appSelect(AppSelect appSelect:String) -> String {

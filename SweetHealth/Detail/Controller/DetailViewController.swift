@@ -79,6 +79,10 @@ class DetailViewController: UIViewController {
             self.logoApp.image = image
             self.logoApp.roundImage()
         })
+        self.logoApp.alpha = 0.0
+        UIView.animate(withDuration: 0.5, delay: 0.5, options: .curveEaseOut, animations: {
+            self.logoApp.alpha = 1
+        }, completion: nil)
     }
 }
 

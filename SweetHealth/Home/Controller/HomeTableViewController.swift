@@ -20,7 +20,9 @@ class HomeTableViewController: UITableViewController {
         super.viewDidLoad()
         self.callApi()
         self.tableView.reloadData()
+        
     }
+   
     
     func callApi(){
         let apiManager = ApiManger()
