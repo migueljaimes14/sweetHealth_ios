@@ -111,7 +111,7 @@ class StadisticsViewController: UIViewController {
     
     func animation(){
         self.imageApp.alpha = 0.0
-        UIView.animate(withDuration: 0.5, delay: 0.5, options: .curveEaseOut, animations: {
+        UIView.animate(withDuration: 0.5, delay: 1, options: .curveEaseOut, animations: {
             self.imageApp.alpha = 1
         }, completion: nil)
         self.viewGraf.alpha = 0.0

@@ -28,7 +28,7 @@ class MapViewController: UIViewController{
     
     func animate(){
         self.mapView.alpha = 0.0
-        UIView.animate(withDuration: 0.5, delay: 0.5, options: .curveEaseOut, animations: {
+        UIView.animate(withDuration: 0.5, delay: 1, options: .curveEaseOut, animations: {
             self.mapView.alpha = 1
         }, completion: nil)
     }
