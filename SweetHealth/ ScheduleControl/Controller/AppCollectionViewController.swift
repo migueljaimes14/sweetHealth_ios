@@ -40,14 +40,16 @@ class AppCollectionViewController: UICollectionViewController {
         })
     }
     
-    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-    }
+    
     
     func CreatListApp(ArrayApp arrayApp:App)->[AppElement]{
         let arrayLocal = arrayApp.compactMap( {result in
             AppElement(id: result.id, name: result.name, image: result.image, date: result.date, time: result.time, event: result.event, latitude: result.latitude, longitude: result.longitude) })
         return arrayLocal
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
     }
     // MARK: UICollectionViewDataSourc
     
