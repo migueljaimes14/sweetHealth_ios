@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AAInfographics
+import EFCircularSlider
 
 class StadisticsViewController: UIViewController {
     
@@ -36,6 +38,56 @@ class StadisticsViewController: UIViewController {
         let appSelection = appSelect(AppSelect: name)
         self.callApi(JSON: appSelection)
         self.setUpView()
+        self.setUpTimer()
+    }
+    
+    func setUpTimer(){
+        let sliderFrame = CGRect(x:0, y:0, width: self.viewTimer.frame.size.width, height: self.viewTimer.frame.size.height)
+        let circularSlider = EFCircularSlider(frame: sliderFrame)
+        let hoursArray = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+        circularSlider.snapToLabels = true
+        circularSlider.labelColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+        circularSlider.setInnerMarkingLabels(hoursArray)
+        circularSlider.handleColor = UIColor.white
+        circularSlider.filledColor = MyColors.pinkApp
+        circularSlider.unfilledColor = UIColor.purple
+        viewTimer.addSubview(circularSlider)
+    }
+    
+    func setUpGraf(array:[AppElement]){
+        let heightGrafic  = CGFloat(self.viewGraf.frame.size.height)
+        let widthGrafic  = CGFloat(self.viewGraf.frame.size.width)
+        let aaChartView = AAChartView()
+        aaChartView.frame = CGRect(x:0,y:0,width:widthGrafic,height:heightGrafic)
+        self.grafics(array: array, BoxGrafic: aaChartView)
+        self.viewGraf.addSubview(aaChartView)
+    }
+    
+    func makeList(_ n: Int) -> [Int] {
+        return (0..<n).map{ _ in Int.random(in: 1 ... 20) }
+    }
+    
+    func grafics(array:[AppElement],BoxGrafic boxGrafic:AAChartView){
+        let valuesOne = makeList(6)
+        let valuesTwo = makeList(6)
+        let aaChartModel = AAChartModel()
+            .title("Promedio de uso")
+            .chartType(.column)//Can be any of the chart types listed under `AAChartType`.
+            .animationType(.easeFromTo)
+            .dataLabelsEnabled(false) //Enable or disable the data labels. Defaults to false
+            .tooltipValueSuffix(" Times")//the value suffix of the chart tooltip
+            .categories(["Lun", "Mar", "Mier","Jue","Vier", "Sab", "Dom"])
+            .colorsTheme(["#fe117c","#ffc069","#06caf4","#7dffc0"])
+            .series([
+                AASeriesElement()
+                    .name("Open")
+                    .data(valuesOne),
+                AASeriesElement()
+                    .name("Close")
+                    .data(valuesTwo),
+            ])
+        boxGrafic.aa_drawChartWithChartModel(aaChartModel)
+        
     }
     
     func setUpView(){
@@ -49,6 +101,9 @@ class StadisticsViewController: UIViewController {
         boxPercentage.layer.cornerRadius = 7
         boxPercentage.layer.borderWidth = 3
         boxPercentage.layer.borderColor =  MyColors.pinkApp.cgColor
+        btnSave.titleLabel?.text = "Guardar cambios"
+        btnSave.backgroundColor = MyColors.pinkApp
+        btnSave.tintColor = UIColor.white
     }
     
     func appSelect(AppSelect appSelect:String) -> String {
@@ -84,6 +139,7 @@ class StadisticsViewController: UIViewController {
             self.listApps = self.CreatListApp(ArrayApp:appResult)
             let number = self.calculatePorcentage()
             self.numberPercentage.text = "\(number) %"
+            self.setUpGraf(array: self.listApps)
         })
     }
     

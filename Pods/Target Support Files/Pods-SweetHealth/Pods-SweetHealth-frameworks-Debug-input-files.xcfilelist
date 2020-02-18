@@ -1,5 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-SweetHealth/Pods-SweetHealth-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AAInfographics/AAInfographics.framework
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework
 ${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework
+${BUILT_PRODUCTS_DIR}/EFCircularSlider/EFCircularSlider.framework
 ${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework
