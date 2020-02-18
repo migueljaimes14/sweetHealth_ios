@@ -6,7 +6,7 @@ target 'SweetHealth' do
   use_frameworks!
   pod 'Alamofire', '~> 4.8'
   pod 'AlamofireImage', '~> 3.5'
-
+  pod 'PopupDialog', '~> 1.1'
   # Pods for SweetHealth
 
   target 'SweetHealthTests' do

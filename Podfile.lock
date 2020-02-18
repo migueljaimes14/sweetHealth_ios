@@ -2,20 +2,28 @@ PODS:
   - Alamofire (4.9.1)
   - AlamofireImage (3.6.0):
     - Alamofire (~> 4.9)
+  - DynamicBlurView (4.0.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.8)
   - AlamofireImage (~> 3.5)
+  - PopupDialog (~> 1.1)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
+    - DynamicBlurView
+    - PopupDialog
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  DynamicBlurView: ccf9acd2b20c883cc2c72e3524a04d8d3ee20533
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
 
-PODFILE CHECKSUM: f13b6f0f804dfbdf6bf3775ae599c832c707545e
+PODFILE CHECKSUM: 9754d0c11d13c36adcfa9f6a95280eda9d7123ff
 
 COCOAPODS: 1.8.4

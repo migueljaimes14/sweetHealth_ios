@@ -29,7 +29,6 @@ class DetailViewController: UIViewController {
         let appSelection = appSelect(AppSelect: name)
         self.callApi(JSONSelect: appSelection)
             setUpView()
-        
     }
     
     func appSelect(AppSelect appSelect:String) -> String {

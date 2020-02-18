@@ -27,7 +27,6 @@ class HomeTableViewController: UITableViewController {
         apiManager.getAllData(File: "listAppJSON", completion:{ appResult in
             self.listApps = self.CreatListApp(ArrayApp:appResult)
         })
-        
     }
     
     func CreatListApp(ArrayApp arrayApp:App)->[AppElement]{

@@ -28,6 +28,8 @@
 		9BA89B8923FB48E700CA0DC2 /* listAppJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B8823FB48E700CA0DC2 /* listAppJSON.json */; };
 		9BA89B8B23FB4DE700CA0DC2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA89B8A23FB4DE700CA0DC2 /* DetailViewController.swift */; };
 		9BA89B8D23FB4F0600CA0DC2 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA89B8C23FB4F0600CA0DC2 /* DetailTableViewCell.swift */; };
+		9BC7B74E23FB6F60006BAD96 /* AppCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7B74D23FB6F60006BAD96 /* AppCollectionViewController.swift */; };
+		9BC7B75223FB70AE006BAD96 /* AppCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7B75123FB70AE006BAD96 /* AppCollectionViewCell.swift */; };
 		9BD2399023F0591200D82FFF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2398F23F0591200D82FFF /* BaseViewController.swift */; };
 		9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2399123F0607A00D82FFF /* RoundButton.swift */; };
 		9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBCAD623CE06E400B96973 /* Literals.swift */; };
@@ -90,6 +92,8 @@
 		9BA89B8823FB48E700CA0DC2 /* listAppJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listAppJSON.json; sourceTree = "<group>"; };
 		9BA89B8A23FB4DE700CA0DC2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9BA89B8C23FB4F0600CA0DC2 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		9BC7B74D23FB6F60006BAD96 /* AppCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCollectionViewController.swift; sourceTree = "<group>"; };
+		9BC7B75123FB70AE006BAD96 /* AppCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCollectionViewCell.swift; sourceTree = "<group>"; };
 		9BD2398F23F0591200D82FFF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9BD2399123F0607A00D82FFF /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		9BDBCAD623CE06E400B96973 /* Literals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literals.swift; sourceTree = "<group>"; };
@@ -390,6 +394,8 @@
 		9BE79A8123CD2E2700669BCC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9BC7B74D23FB6F60006BAD96 /* AppCollectionViewController.swift */,
+				9BC7B75123FB70AE006BAD96 /* AppCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -695,6 +701,7 @@
 				9B5DF64823F9A318000E04C6 /* ImagenCharged.swift in Sources */,
 				9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */,
 				9BA89B8B23FB4DE700CA0DC2 /* DetailViewController.swift in Sources */,
+				9BC7B75223FB70AE006BAD96 /* AppCollectionViewCell.swift in Sources */,
 				9B5D7DE023F312530017DB7F /* MyColors.swift in Sources */,
 				9BFBD18923D4F7C40097A4DC /* StadisticViewController.swift in Sources */,
 				9BA89B8D23FB4F0600CA0DC2 /* DetailTableViewCell.swift in Sources */,
@@ -706,6 +713,7 @@
 				9B5D7DEB23F331B60017DB7F /* App.swift in Sources */,
 				9BDBCADC23CE080700B96973 /* LoginViewController.swift in Sources */,
 				9BFBD19323D4F84A0097A4DC /* APIManager.swift in Sources */,
+				9BC7B74E23FB6F60006BAD96 /* AppCollectionViewController.swift in Sources */,
 				9BE79A4223CD20D100669BCC /* SceneDelegate.swift in Sources */,
 				9B5D7DDC23F3101F0017DB7F /* HomeTableViewCell.swift in Sources */,
 				9B5D7DE223F3142A0017DB7F /* HomeTableViewController.swift in Sources */,
