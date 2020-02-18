@@ -22,6 +22,7 @@ class StadisticsViewController: UIViewController {
     @IBOutlet weak var titleTimer: UILabel!
     
     @IBAction func btnActionSave(_ sender: Any) {
+        performSegue(withIdentifier: "returnHome", sender: nil)
     }
     
     @IBOutlet weak var viewGraf: UIView!
@@ -114,8 +115,12 @@ class StadisticsViewController: UIViewController {
             self.imageApp.alpha = 1
         }, completion: nil)
         self.viewGraf.alpha = 0.0
-        UIView.animate(withDuration: 0.5, delay: 1, options: .curveEaseOut, animations: {
+        UIView.animate(withDuration: 1, delay: 1, options: .curveEaseOut, animations: {
             self.viewGraf.alpha = 1
+        }, completion: nil)
+        self.viewTimer.alpha = 0.0
+        UIView.animate(withDuration: 0.5, delay: 1, options: .curveEaseOut, animations: {
+            self.viewTimer.alpha = 1
         }, completion: nil)
     }
     
