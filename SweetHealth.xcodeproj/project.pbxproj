@@ -3,13 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		292BAF9840620F76910809B9 /* Pods_SweetHealth_SweetHealthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D8A0367CBF2582AC407BED /* Pods_SweetHealth_SweetHealthUITests.framework */; };
 		591714336FAA2EA1A3C75F3B /* Pods_SweetHealthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEBA6D2714AC84D8EEA67BF /* Pods_SweetHealthTests.framework */; };
 		65EE2C3B62E004CBE48358FC /* Pods_SweetHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CA9F49F0B5AD74CF1CC6A0 /* Pods_SweetHealth.framework */; };
+		9B5D7DD623F1EE680017DB7F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DD523F1EE680017DB7F /* RegisterViewController.swift */; };
+		9B5D7DDA23F260D10017DB7F /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DD923F260D10017DB7F /* Validator.swift */; };
+		9B5D7DDC23F3101F0017DB7F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DDB23F3101F0017DB7F /* HomeTableViewCell.swift */; };
+		9B5D7DDE23F311A60017DB7F /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DDD23F311A60017DB7F /* UIImageView.swift */; };
+		9B5D7DE023F312530017DB7F /* MyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DDF23F312530017DB7F /* MyColors.swift */; };
+		9B5D7DE223F3142A0017DB7F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DE123F3142A0017DB7F /* HomeTableViewController.swift */; };
+		9B5D7DE723F331220017DB7F /* AppJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D7DE623F331220017DB7F /* AppJSON.json */; };
+		9B5D7DEB23F331B60017DB7F /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D7DEA23F331B60017DB7F /* App.swift */; };
+		9B5DF64823F9A318000E04C6 /* ImagenCharged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5DF64723F9A318000E04C6 /* ImagenCharged.swift */; };
+		9BA89B8223FB337900CA0DC2 /* facebookJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B7C23FB337800CA0DC2 /* facebookJSON.json */; };
+		9BA89B8323FB337900CA0DC2 /* whatsappJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B7D23FB337900CA0DC2 /* whatsappJSON.json */; };
+		9BA89B8423FB337900CA0DC2 /* relojJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B7E23FB337900CA0DC2 /* relojJSON.json */; };
+		9BA89B8523FB337900CA0DC2 /* gmailJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B7F23FB337900CA0DC2 /* gmailJSON.json */; };
+		9BA89B8623FB337900CA0DC2 /* chromeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B8023FB337900CA0DC2 /* chromeJSON.json */; };
+		9BA89B8723FB337900CA0DC2 /* instagramJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B8123FB337900CA0DC2 /* instagramJSON.json */; };
+		9BA89B8923FB48E700CA0DC2 /* listAppJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BA89B8823FB48E700CA0DC2 /* listAppJSON.json */; };
+		9BA89B8B23FB4DE700CA0DC2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA89B8A23FB4DE700CA0DC2 /* DetailViewController.swift */; };
+		9BA89B8D23FB4F0600CA0DC2 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA89B8C23FB4F0600CA0DC2 /* DetailTableViewCell.swift */; };
+		9BC7B74E23FB6F60006BAD96 /* AppCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7B74D23FB6F60006BAD96 /* AppCollectionViewController.swift */; };
+		9BC7B75223FB70AE006BAD96 /* AppCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7B75123FB70AE006BAD96 /* AppCollectionViewCell.swift */; };
+		9BC7B75823FC4C54006BAD96 /* StadisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7B75723FC4C54006BAD96 /* StadisticsViewController.swift */; };
+		9BC7B75E23FC833E006BAD96 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7B75D23FC833E006BAD96 /* ProfileViewController.swift */; };
+		9BC7B76023FC8F5D006BAD96 /* MyUINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7B75F23FC8F5D006BAD96 /* MyUINavigationItem.swift */; };
+		9BD2399023F0591200D82FFF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2398F23F0591200D82FFF /* BaseViewController.swift */; };
+		9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2399123F0607A00D82FFF /* RoundButton.swift */; };
+		9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBCAD623CE06E400B96973 /* Literals.swift */; };
+		9BDBCADA23CE07F600B96973 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDBCAD923CE07F600B96973 /* Login.storyboard */; };
+		9BDBCADC23CE080700B96973 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBCADB23CE080700B96973 /* LoginViewController.swift */; };
 		9BE79A4023CD20D100669BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A3F23CD20D100669BCC /* AppDelegate.swift */; };
 		9BE79A4223CD20D100669BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A4123CD20D100669BCC /* SceneDelegate.swift */; };
 		9BE79A4423CD20D100669BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A4323CD20D100669BCC /* ViewController.swift */; };
@@ -18,6 +46,10 @@
 		9BE79A4C23CD20D600669BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE79A4A23CD20D600669BCC /* LaunchScreen.storyboard */; };
 		9BE79A5723CD20D600669BCC /* SweetHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A5623CD20D600669BCC /* SweetHealthTests.swift */; };
 		9BE79A6223CD20D600669BCC /* SweetHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE79A6123CD20D600669BCC /* SweetHealthUITests.swift */; };
+		9BFBD17623D3BABB0097A4DC /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17523D3BABA0097A4DC /* Register.storyboard */; };
+		9BFBD17A23D3BBE10097A4DC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBD17923D3BBE10097A4DC /* Home.storyboard */; };
+		9BFBD19123D4F82F0097A4DC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD19023D4F82F0097A4DC /* MapViewController.swift */; };
+		9BFBD19323D4F84A0097A4DC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD19223D4F84A0097A4DC /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +75,34 @@
 		63CA9F49F0B5AD74CF1CC6A0 /* Pods_SweetHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		646E5955A1391903F4620739 /* Pods-SweetHealthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealthTests.release.xcconfig"; path = "Target Support Files/Pods-SweetHealthTests/Pods-SweetHealthTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D448FF94A8676287D795588 /* Pods-SweetHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealth/Pods-SweetHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		9B5D7DD523F1EE680017DB7F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9B5D7DD923F260D10017DB7F /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		9B5D7DDB23F3101F0017DB7F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		9B5D7DDD23F311A60017DB7F /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		9B5D7DDF23F312530017DB7F /* MyColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColors.swift; sourceTree = "<group>"; };
+		9B5D7DE123F3142A0017DB7F /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		9B5D7DE623F331220017DB7F /* AppJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppJSON.json; sourceTree = "<group>"; };
+		9B5D7DEA23F331B60017DB7F /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		9B5DF64723F9A318000E04C6 /* ImagenCharged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenCharged.swift; sourceTree = "<group>"; };
+		9BA89B7C23FB337800CA0DC2 /* facebookJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = facebookJSON.json; sourceTree = "<group>"; };
+		9BA89B7D23FB337900CA0DC2 /* whatsappJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = whatsappJSON.json; sourceTree = "<group>"; };
+		9BA89B7E23FB337900CA0DC2 /* relojJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = relojJSON.json; sourceTree = "<group>"; };
+		9BA89B7F23FB337900CA0DC2 /* gmailJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gmailJSON.json; sourceTree = "<group>"; };
+		9BA89B8023FB337900CA0DC2 /* chromeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chromeJSON.json; sourceTree = "<group>"; };
+		9BA89B8123FB337900CA0DC2 /* instagramJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = instagramJSON.json; sourceTree = "<group>"; };
+		9BA89B8823FB48E700CA0DC2 /* listAppJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listAppJSON.json; sourceTree = "<group>"; };
+		9BA89B8A23FB4DE700CA0DC2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9BA89B8C23FB4F0600CA0DC2 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		9BC7B74D23FB6F60006BAD96 /* AppCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCollectionViewController.swift; sourceTree = "<group>"; };
+		9BC7B75123FB70AE006BAD96 /* AppCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCollectionViewCell.swift; sourceTree = "<group>"; };
+		9BC7B75723FC4C54006BAD96 /* StadisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadisticsViewController.swift; sourceTree = "<group>"; };
+		9BC7B75D23FC833E006BAD96 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9BC7B75F23FC8F5D006BAD96 /* MyUINavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUINavigationItem.swift; sourceTree = "<group>"; };
+		9BD2398F23F0591200D82FFF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9BD2399123F0607A00D82FFF /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		9BDBCAD623CE06E400B96973 /* Literals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literals.swift; sourceTree = "<group>"; };
+		9BDBCAD923CE07F600B96973 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		9BDBCADB23CE080700B96973 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9BE79A3C23CD20D100669BCC /* SweetHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE79A3F23CD20D100669BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BE79A4123CD20D100669BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +117,10 @@
 		9BE79A5D23CD20D600669BCC /* SweetHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE79A6123CD20D600669BCC /* SweetHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetHealthUITests.swift; sourceTree = "<group>"; };
 		9BE79A6323CD20D600669BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFBD17523D3BABA0097A4DC /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		9BFBD17923D3BBE10097A4DC /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		9BFBD19023D4F82F0097A4DC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9BFBD19223D4F84A0097A4DC /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		BFAA6C45D5F4EF9BD82D2048 /* Pods-SweetHealth-SweetHealthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth-SweetHealthUITests.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealth-SweetHealthUITests/Pods-SweetHealth-SweetHealthUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3DC8F5A140B7E1A9B4A8FAE /* Pods-SweetHealth-SweetHealthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealth-SweetHealthUITests.release.xcconfig"; path = "Target Support Files/Pods-SweetHealth-SweetHealthUITests/Pods-SweetHealth-SweetHealthUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EA29E0BB138988E4F630FE10 /* Pods-SweetHealthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHealthTests.debug.xcconfig"; path = "Target Support Files/Pods-SweetHealthTests/Pods-SweetHealthTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +165,69 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9B5D7DE323F318870017DB7F /* JsonsHardcoded */ = {
+			isa = PBXGroup;
+			children = (
+				9BA89B8823FB48E700CA0DC2 /* listAppJSON.json */,
+				9BA89B8023FB337900CA0DC2 /* chromeJSON.json */,
+				9BA89B7C23FB337800CA0DC2 /* facebookJSON.json */,
+				9BA89B8123FB337900CA0DC2 /* instagramJSON.json */,
+				9BA89B7F23FB337900CA0DC2 /* gmailJSON.json */,
+				9BA89B7E23FB337900CA0DC2 /* relojJSON.json */,
+				9BA89B7D23FB337900CA0DC2 /* whatsappJSON.json */,
+				9B5D7DE623F331220017DB7F /* AppJSON.json */,
+			);
+			path = JsonsHardcoded;
+			sourceTree = "<group>";
+		};
+		9B5D7DE923F331690017DB7F /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				9B5D7DEA23F331B60017DB7F /* App.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		9BDBCAD123CE060800B96973 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				9BDBCAD423CE065100B96973 /* Controller */,
+				9BDBCAD323CE064A00B96973 /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		9BDBCAD223CE062200B96973 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7B75F23FC8F5D006BAD96 /* MyUINavigationItem.swift */,
+				9B5D7DD923F260D10017DB7F /* Validator.swift */,
+				9BD2399123F0607A00D82FFF /* RoundButton.swift */,
+				9BDBCAD623CE06E400B96973 /* Literals.swift */,
+				9BD2398F23F0591200D82FFF /* BaseViewController.swift */,
+				9B5D7DDD23F311A60017DB7F /* UIImageView.swift */,
+				9B5DF64723F9A318000E04C6 /* ImagenCharged.swift */,
+				9B5D7DDF23F312530017DB7F /* MyColors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9BDBCAD323CE064A00B96973 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBD17523D3BABA0097A4DC /* Register.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BDBCAD423CE065100B96973 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B5D7DD523F1EE680017DB7F /* RegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9BE79A3323CD20D100669BCC = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +253,18 @@
 		9BE79A3E23CD20D100669BCC /* SweetHealth */ = {
 			isa = PBXGroup;
 			children = (
+				9B5D7DE923F331690017DB7F /* Modelos */,
+				9B5D7DE323F318870017DB7F /* JsonsHardcoded */,
+				9BFBD17423D3A9D70097A4DC /* API */,
+				9BDBCAD223CE062200B96973 /* Utils */,
+				9BE79A7623CD2DA600669BCC /* Map */,
+				9BE79A7523CD2D9800669BCC /* Profile */,
+				9BE79A7323CD2D7000669BCC /* Stadistics */,
+				9BE79A7223CD2D3700669BCC /*  ScheduleControl */,
+				9BE79A7123CD2D1000669BCC /* Detail */,
+				9BE79A7023CD2CE900669BCC /* Home */,
+				9BDBCAD123CE060800B96973 /* Register */,
+				9BE79A7423CD2D8100669BCC /* Login */,
 				9BE79A3F23CD20D100669BCC /* AppDelegate.swift */,
 				9BE79A4123CD20D100669BCC /* SceneDelegate.swift */,
 				9BE79A4323CD20D100669BCC /* ViewController.swift */,
@@ -155,6 +294,147 @@
 			path = SweetHealthUITests;
 			sourceTree = "<group>";
 		};
+		9BE79A7023CD2CE900669BCC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9BE79A7F23CD2E1F00669BCC /* Controller */,
+				9BE79A7823CD2DF500669BCC /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9BE79A7123CD2D1000669BCC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				9BE79A8023CD2E2200669BCC /* Controller */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		9BE79A7223CD2D3700669BCC /*  ScheduleControl */ = {
+			isa = PBXGroup;
+			children = (
+				9BE79A8123CD2E2700669BCC /* Controller */,
+			);
+			path = " ScheduleControl";
+			sourceTree = "<group>";
+		};
+		9BE79A7323CD2D7000669BCC /* Stadistics */ = {
+			isa = PBXGroup;
+			children = (
+				9BE79A8223CD2E2B00669BCC /* Controller */,
+			);
+			path = Stadistics;
+			sourceTree = "<group>";
+		};
+		9BE79A7423CD2D8100669BCC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9BE79A7E23CD2E1200669BCC /* Controller */,
+				9BE79A7723CD2DC600669BCC /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9BE79A7523CD2D9800669BCC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9BE79A8323CD2E2F00669BCC /* Controller */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9BE79A7623CD2DA600669BCC /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9BE79A8423CD2E3300669BCC /* Controller */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9BE79A7723CD2DC600669BCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BDBCAD923CE07F600B96973 /* Login.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BE79A7823CD2DF500669BCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBD17923D3BBE10097A4DC /* Home.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BE79A7E23CD2E1200669BCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BDBCADB23CE080700B96973 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BE79A7F23CD2E1F00669BCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B5D7DDB23F3101F0017DB7F /* HomeTableViewCell.swift */,
+				9B5D7DE123F3142A0017DB7F /* HomeTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BE79A8023CD2E2200669BCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BA89B8A23FB4DE700CA0DC2 /* DetailViewController.swift */,
+				9BA89B8C23FB4F0600CA0DC2 /* DetailTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BE79A8123CD2E2700669BCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7B74D23FB6F60006BAD96 /* AppCollectionViewController.swift */,
+				9BC7B75123FB70AE006BAD96 /* AppCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BE79A8223CD2E2B00669BCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7B75723FC4C54006BAD96 /* StadisticsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BE79A8323CD2E2F00669BCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7B75D23FC833E006BAD96 /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BE79A8423CD2E3300669BCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBD19023D4F82F0097A4DC /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BFBD17423D3A9D70097A4DC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBD19223D4F84A0097A4DC /* APIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		EE0316E6D1A6F4897C14C327 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +445,6 @@
 				EA29E0BB138988E4F630FE10 /* Pods-SweetHealthTests.debug.xcconfig */,
 				646E5955A1391903F4620739 /* Pods-SweetHealthTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,9 +557,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDBCADA23CE07F600B96973 /* Login.storyboard in Resources */,
+				9BA89B8723FB337900CA0DC2 /* instagramJSON.json in Resources */,
 				9BE79A4C23CD20D600669BCC /* LaunchScreen.storyboard in Resources */,
+				9BA89B8923FB48E700CA0DC2 /* listAppJSON.json in Resources */,
 				9BE79A4923CD20D600669BCC /* Assets.xcassets in Resources */,
+				9BA89B8623FB337900CA0DC2 /* chromeJSON.json in Resources */,
+				9BFBD17A23D3BBE10097A4DC /* Home.storyboard in Resources */,
 				9BE79A4723CD20D100669BCC /* Main.storyboard in Resources */,
+				9BA89B8523FB337900CA0DC2 /* gmailJSON.json in Resources */,
+				9BA89B8223FB337900CA0DC2 /* facebookJSON.json in Resources */,
+				9BFBD17623D3BABB0097A4DC /* Register.storyboard in Resources */,
+				9BA89B8323FB337900CA0DC2 /* whatsappJSON.json in Resources */,
+				9BA89B8423FB337900CA0DC2 /* relojJSON.json in Resources */,
+				9B5D7DE723F331220017DB7F /* AppJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +606,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SweetHealth/Pods-SweetHealth-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		1365862FACDFD2CE10ABEDE4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -408,9 +697,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5D7DDA23F260D10017DB7F /* Validator.swift in Sources */,
+				9BD2399023F0591200D82FFF /* BaseViewController.swift in Sources */,
 				9BE79A4423CD20D100669BCC /* ViewController.swift in Sources */,
+				9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */,
+				9B5DF64823F9A318000E04C6 /* ImagenCharged.swift in Sources */,
+				9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */,
+				9BA89B8B23FB4DE700CA0DC2 /* DetailViewController.swift in Sources */,
+				9BC7B75223FB70AE006BAD96 /* AppCollectionViewCell.swift in Sources */,
+				9B5D7DE023F312530017DB7F /* MyColors.swift in Sources */,
+				9BA89B8D23FB4F0600CA0DC2 /* DetailTableViewCell.swift in Sources */,
+				9BC7B75823FC4C54006BAD96 /* StadisticsViewController.swift in Sources */,
+				9B5D7DD623F1EE680017DB7F /* RegisterViewController.swift in Sources */,
 				9BE79A4023CD20D100669BCC /* AppDelegate.swift in Sources */,
+				9B5D7DDE23F311A60017DB7F /* UIImageView.swift in Sources */,
+				9BC7B76023FC8F5D006BAD96 /* MyUINavigationItem.swift in Sources */,
+				9BFBD19123D4F82F0097A4DC /* MapViewController.swift in Sources */,
+				9BC7B75E23FC833E006BAD96 /* ProfileViewController.swift in Sources */,
+				9B5D7DEB23F331B60017DB7F /* App.swift in Sources */,
+				9BDBCADC23CE080700B96973 /* LoginViewController.swift in Sources */,
+				9BFBD19323D4F84A0097A4DC /* APIManager.swift in Sources */,
+				9BC7B74E23FB6F60006BAD96 /* AppCollectionViewController.swift in Sources */,
 				9BE79A4223CD20D100669BCC /* SceneDelegate.swift in Sources */,
+				9B5D7DDC23F3101F0017DB7F /* HomeTableViewCell.swift in Sources */,
+				9B5D7DE223F3142A0017DB7F /* HomeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +897,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 254DWXJ94U;
 				INFOPLIST_FILE = SweetHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,7 +905,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Miguel.SweetHealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -606,6 +917,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 254DWXJ94U;
 				INFOPLIST_FILE = SweetHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -613,7 +925,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Miguel.SweetHealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

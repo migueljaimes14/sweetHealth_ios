@@ -1,20 +1,45 @@
 PODS:
-  - Alamofire (5.0.0-rc.3)
-  - SwiftLint (0.38.2)
+  - AAInfographics (4.0.0)
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - DynamicBlurView (4.0.0)
+  - EFCircularSlider (0.1.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 5.0.0-rc.3)
-  - SwiftLint
+  - AAInfographics (from `https://github.com/AAChartModel/AAChartKit-Swift.git`)
+  - Alamofire (~> 4.8)
+  - AlamofireImage (~> 3.5)
+  - EFCircularSlider (~> 0.1.0)
+  - PopupDialog (~> 1.1)
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - SwiftLint
+    - AlamofireImage
+    - DynamicBlurView
+    - EFCircularSlider
+    - PopupDialog
+
+EXTERNAL SOURCES:
+  AAInfographics:
+    :git: https://github.com/AAChartModel/AAChartKit-Swift.git
+
+CHECKOUT OPTIONS:
+  AAInfographics:
+    :commit: f06cca3fa60a143285df73399c966551b2c440a7
+    :git: https://github.com/AAChartModel/AAChartKit-Swift.git
 
 SPEC CHECKSUMS:
-  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
-  SwiftLint: 8f5d2f903e1c9bcbc832fd16771e80a263ac6cbb
+  AAInfographics: bbeed03caece4ee3b5e557d734967394e9bcdb11
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  DynamicBlurView: ccf9acd2b20c883cc2c72e3524a04d8d3ee20533
+  EFCircularSlider: 5a4baa272264e845577945c86e23d5d3996d3c37
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
 
-PODFILE CHECKSUM: 2f864f5dbe27be55388de1d84c386ee5d000803b
+PODFILE CHECKSUM: 0978a33e7f108a92a50dc2b82ba0a2b04cee746e
 
 COCOAPODS: 1.8.4
