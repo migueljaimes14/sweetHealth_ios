@@ -22,6 +22,7 @@ class StadisticsViewController: UIViewController {
     @IBOutlet weak var titleTimer: UILabel!
     
     @IBAction func btnActionSave(_ sender: Any) {
+        performSegue(withIdentifier: "returnHome", sender: nil)
     }
     
     @IBOutlet weak var viewGraf: UIView!

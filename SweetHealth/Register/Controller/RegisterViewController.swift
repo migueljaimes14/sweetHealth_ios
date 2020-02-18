@@ -19,6 +19,9 @@ class RegisterViewController: BaseViewController {
     @IBOutlet weak var registerUserPassword: UILabel!
     @IBOutlet weak var registerUserRepeatPassword: UILabel!
     
+    @IBAction func back(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     
     @IBOutlet weak var textNameUser: UITextField!
     @IBOutlet weak var textLastNameUser: UITextField!

@@ -32,6 +32,7 @@
 		9BC7B75223FB70AE006BAD96 /* AppCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7B75123FB70AE006BAD96 /* AppCollectionViewCell.swift */; };
 		9BC7B75823FC4C54006BAD96 /* StadisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7B75723FC4C54006BAD96 /* StadisticsViewController.swift */; };
 		9BC7B75E23FC833E006BAD96 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7B75D23FC833E006BAD96 /* ProfileViewController.swift */; };
+		9BC7B76023FC8F5D006BAD96 /* MyUINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7B75F23FC8F5D006BAD96 /* MyUINavigationItem.swift */; };
 		9BD2399023F0591200D82FFF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2398F23F0591200D82FFF /* BaseViewController.swift */; };
 		9BD2399223F0607A00D82FFF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2399123F0607A00D82FFF /* RoundButton.swift */; };
 		9BDBCAD723CE06E400B96973 /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBCAD623CE06E400B96973 /* Literals.swift */; };
@@ -96,6 +97,7 @@
 		9BC7B75123FB70AE006BAD96 /* AppCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCollectionViewCell.swift; sourceTree = "<group>"; };
 		9BC7B75723FC4C54006BAD96 /* StadisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadisticsViewController.swift; sourceTree = "<group>"; };
 		9BC7B75D23FC833E006BAD96 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9BC7B75F23FC8F5D006BAD96 /* MyUINavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUINavigationItem.swift; sourceTree = "<group>"; };
 		9BD2398F23F0591200D82FFF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9BD2399123F0607A00D82FFF /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		9BDBCAD623CE06E400B96973 /* Literals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literals.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 		9BDBCAD223CE062200B96973 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9BC7B75F23FC8F5D006BAD96 /* MyUINavigationItem.swift */,
 				9B5D7DD923F260D10017DB7F /* Validator.swift */,
 				9BD2399123F0607A00D82FFF /* RoundButton.swift */,
 				9BDBCAD623CE06E400B96973 /* Literals.swift */,
@@ -708,6 +711,7 @@
 				9B5D7DD623F1EE680017DB7F /* RegisterViewController.swift in Sources */,
 				9BE79A4023CD20D100669BCC /* AppDelegate.swift in Sources */,
 				9B5D7DDE23F311A60017DB7F /* UIImageView.swift in Sources */,
+				9BC7B76023FC8F5D006BAD96 /* MyUINavigationItem.swift in Sources */,
 				9BFBD19123D4F82F0097A4DC /* MapViewController.swift in Sources */,
 				9BC7B75E23FC833E006BAD96 /* ProfileViewController.swift in Sources */,
 				9B5D7DEB23F331B60017DB7F /* App.swift in Sources */,
