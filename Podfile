@@ -7,6 +7,8 @@ target 'SweetHealth' do
   pod 'Alamofire', '~> 4.8'
   pod 'AlamofireImage', '~> 3.5'
   pod 'PopupDialog', '~> 1.1'
+  pod 'AAInfographics', :git => 'https://github.com/AAChartModel/AAChartKit-Swift.git'
+  pod "EFCircularSlider", "~> 0.1.0"
   # Pods for SweetHealth
 
   target 'SweetHealthTests' do
