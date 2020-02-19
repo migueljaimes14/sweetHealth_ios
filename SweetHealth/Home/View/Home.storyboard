@@ -145,11 +145,11 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="zeE-3V-bf1" customClass="MapViewController" customModule="SweetHealth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XZz-yB-qMd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4Wo-1M-wdt">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="598"/>
                                 <connections>
                                     <outlet property="delegate" destination="zeE-3V-bf1" id="Fum-C2-Lp9"/>
                                 </connections>
@@ -178,7 +178,7 @@
             <objects>
                 <tableViewController modalPresentationStyle="fullScreen" id="KJw-dc-zcv" customClass="HomeTableViewController" customModule="SweetHealth" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Nm7-SS-oFD">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
@@ -256,26 +256,26 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="GFU-Kd-bxx" customClass="DetailViewController" customModule="SweetHealth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="50r-7t-OXF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="O35-Ga-eLf">
-                                <rect key="frame" x="10" y="56" width="355" height="535"/>
+                                <rect key="frame" x="10" y="44" width="355" height="579"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4A-w4-3rN">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="163"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="207"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="v9l-Ii-UFj">
-                                                <rect key="frame" x="3" y="0.0" width="349.5" height="163"/>
+                                                <rect key="frame" x="3" y="0.0" width="349.5" height="207"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BOj-sO-era">
-                                                        <rect key="frame" x="0.0" y="0.0" width="349.5" height="163"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="349.5" height="207"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="0su-Xx-Yf4">
-                                                                <rect key="frame" x="0.0" y="0.0" width="349.5" height="163"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="349.5" height="207"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="1Gf-FD-BcS">
-                                                                        <rect key="frame" x="20.5" y="29.5" width="308.5" height="104"/>
+                                                                        <rect key="frame" x="20.5" y="51.5" width="308.5" height="104"/>
                                                                         <subviews>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="imageCardBack" translatesAutoresizingMaskIntoConstraints="NO" id="YGX-Vb-bhV">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="104"/>
@@ -326,7 +326,7 @@
                                         </constraints>
                                     </view>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XNp-c5-gz8">
-                                        <rect key="frame" x="0.0" y="163" width="355" height="372"/>
+                                        <rect key="frame" x="0.0" y="207" width="355" height="372"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="372" id="Jkn-cd-HOn"/>
@@ -465,7 +465,7 @@
                 <navigationController modalPresentationStyle="fullScreen" id="ZeL-z7-yEX" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Apps" image="square.split.2x2" catalog="system" id="BE3-2f-pql"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sDi-Dd-fHG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -610,12 +610,18 @@
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
+                                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="TVB-Fu-V5N">
+                                                                <rect key="frame" x="32" y="32" width="20" height="20"/>
+                                                                <color key="color" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </activityIndicatorView>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                         <constraints>
+                                                            <constraint firstItem="TVB-Fu-V5N" firstAttribute="centerY" secondItem="GV0-GY-pqR" secondAttribute="centerY" id="62J-kc-DqN"/>
                                                             <constraint firstItem="So0-yp-pDZ" firstAttribute="centerX" secondItem="GV0-GY-pqR" secondAttribute="centerX" id="MGM-30-fD7"/>
                                                             <constraint firstAttribute="width" constant="84" id="S7B-wO-kGC"/>
                                                             <constraint firstItem="So0-yp-pDZ" firstAttribute="centerY" secondItem="GV0-GY-pqR" secondAttribute="centerY" id="c5H-W7-hVe"/>
+                                                            <constraint firstItem="TVB-Fu-V5N" firstAttribute="centerX" secondItem="GV0-GY-pqR" secondAttribute="centerX" id="cPI-Ho-Xhr"/>
                                                             <constraint firstAttribute="height" constant="84" id="n9L-gT-k9Y"/>
                                                         </constraints>
                                                     </view>
@@ -696,6 +702,7 @@
                     <connections>
                         <outlet property="boxPercentage" destination="GV0-GY-pqR" id="RFK-vt-mBT"/>
                         <outlet property="btnSave" destination="nTE-tG-29v" id="Ela-zp-d0J"/>
+                        <outlet property="iconCharched" destination="TVB-Fu-V5N" id="r9d-tg-ZzT"/>
                         <outlet property="imageApp" destination="QbO-wp-so8" id="WzJ-zv-10p"/>
                         <outlet property="nameApp" destination="Uu4-tm-Inb" id="Llz-P9-a1L"/>
                         <outlet property="numberPercentage" destination="AIU-Rx-rpE" id="HeL-EC-WsY"/>
@@ -738,6 +745,6 @@
         <image name="square.split.2x2" catalog="system" width="64" height="56"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cW0-qY-Ut5"/>
+        <segue reference="aR7-bq-SEV"/>
     </inferredMetricsTieBreakers>
 </document>

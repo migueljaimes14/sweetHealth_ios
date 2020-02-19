@@ -20,6 +20,7 @@ class StadisticsViewController: UIViewController {
     @IBOutlet weak var numberPercentage: UILabel!
     @IBOutlet weak var btnSave: UIButton!
     @IBOutlet weak var titleTimer: UILabel!
+    @IBOutlet weak var iconCharched: UIActivityIndicatorView!
     
     @IBAction func btnActionSave(_ sender: Any) {
         performSegue(withIdentifier: "returnHome", sender: nil)
@@ -97,6 +98,8 @@ class StadisticsViewController: UIViewController {
             self.imageApp.image = image
             self.imageApp.roundImage()
         })
+        iconCharched.startAnimating()
+        iconCharched.hidesWhenStopped = false
         self.animation()
         titleTimer.text = "Restringir"
         nameApp.text = app?.name.map{ $0.rawValue}
@@ -107,9 +110,19 @@ class StadisticsViewController: UIViewController {
         btnSave.setTitle("Guardar cambios", for: .normal)
         btnSave.backgroundColor = MyColors.pinkApp
         btnSave.tintColor = UIColor.white
+        let _ = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true, block: { timer in
+            self.iconCharched.stopAnimating()
+            self.iconCharched.hidesWhenStopped = true
+        })
     }
     
     func animation(){
+        self.titlePercentage.alpha = 0.0
+        self.numberPercentage.alpha = 0.0
+        UIView.animate(withDuration: 0.5, delay: 2, options: .curveEaseOut, animations: {
+            self.titlePercentage.alpha = 1
+            self.numberPercentage.alpha = 1
+        }, completion: nil)
         self.imageApp.alpha = 0.0
         UIView.animate(withDuration: 0.5, delay: 1, options: .curveEaseOut, animations: {
             self.imageApp.alpha = 1
